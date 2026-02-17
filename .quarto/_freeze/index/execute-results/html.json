@@ -1,0 +1,17 @@
+{
+  "hash": "320982c23b562590d45545eecdc98c71",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Home\"\n---\n\nThis is a Quarto website.\n\nWelcome to my Quarto website!\n\nHere's some R code:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

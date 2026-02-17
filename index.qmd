@@ -1,0 +1,13 @@
+---
+title: "Home"
+---
+
+This is a Quarto website.
+
+Welcome to my Quarto website!
+
+Here's some R code:
+
+```{r}
+plot(cars)
+```
