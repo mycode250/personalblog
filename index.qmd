@@ -1,13 +1,17 @@
 ---
-title: "Home"
+title: "Hi, I'm Amir Alnajjar"
 ---
 
-This is a Quarto website.
+![](https://www.kdnuggets.com/wp-content/uploads/Rosidi_-Top_5_Career_Paths_in_Data_Science_and_How_to_Self_Learn_for_Each_5.png){fig-align="right"}
 
-Welcome to my Quarto website!
+## *About Me*
 
-Here's some R code:
+*I’m an **up-and-coming data scientist** and a current student at **Cal Poly Pomona**, passionate about uncovering insights from data. My toolkit includes **R**, **Python**, and **Excel**, and I love building projects that combine analytical rigor with storytelling.*
 
-```{r}
-plot(cars)
-```
+## *Personal Statement*
+
+*Data is everywhere, but raw numbers rarely tell the full story. My mission is to bridge the gap between complex data and actionable insights—whether through predictive models, interactive dashboards, or clear visualizations. I’m particularly interested in applications of machine learning in business and social impact. When I’m not coding, you’ll find me exploring data journalism, playing chess, or hiking in Southern California.*
+
+------------------------------------------------------------------------
+
+*Check out my [**Data analytics Portfolio**](analytics.qmd) to see some of my recent work!*

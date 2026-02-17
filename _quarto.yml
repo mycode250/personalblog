@@ -1,19 +1,25 @@
+# _quarto.yml
 project:
- type: website
- output-dir: docs
+  type: website
 
 website:
-  title: "my-website"
+  title: "Amir Alnajjar"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: analytics.qmd
+        text: Data Analytics
+    right:
+      - icon: github
+        href: https://github.com/amir-alnajjar
+      - icon: linkedin
+        href: https://linkedin.com/in/amir-alnajjar
+  page-footer:
+    center: "© 2025 Amir Alnajjar"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
