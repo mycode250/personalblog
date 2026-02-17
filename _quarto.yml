@@ -1,6 +1,6 @@
-  project:
-  type: website
-  output-dir: docs
+project:
+ type: website
+ output-dir: docs
 
 website:
   title: "my-website"
@@ -17,6 +17,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
