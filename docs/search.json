@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Hi, I’m Amir Alnajjar",
-    "section": "About Me",
-    "text": "About Me\nI’m an up-and-coming data scientist and a current student at Cal Poly Pomona, passionate about uncovering insights from data. My toolkit includes R, Python, and Excel, and I love building projects that combine analytical rigor with storytelling."
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Bachelor’s Degree (In Progress) California State Polytechnic University, Pomona (Cal Poly Pomona)\nHigh School Diploma Rancho Cucamogo High School Rancho Cucamonga, California"
   },
   {
-    "objectID": "index.html#personal-statement",
-    "href": "index.html#personal-statement",
-    "title": "Hi, I’m Amir Alnajjar",
-    "section": "Personal Statement",
-    "text": "Personal Statement\nData is everywhere, but raw numbers rarely tell the full story. My mission is to bridge the gap between complex data and actionable insights—whether through predictive models, interactive dashboards, or clear visualizations. I’m particularly interested in applications of machine learning in business and social impact. When I’m not coding, you’ll find me exploring data journalism, playing chess, or hiking in Southern California.\n\nCheck out my Data analytics Portfolio to see some of my recent work!"
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "Bachelor’s Degree (In Progress) California State Polytechnic University, Pomona (Cal Poly Pomona)\nHigh School Diploma Rancho Cucamogo High School Rancho Cucamonga, California"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\nMultilingual Communication\nTeam Collaboration"
+  },
+  {
+    "objectID": "resume.html#languages",
+    "href": "resume.html#languages",
+    "title": "Resume",
+    "section": "Languages",
+    "text": "Languages\n\nEnglish (Fluent)\nArabic (Fluent)\nSpanish (Fluent)"
+  },
+  {
+    "objectID": "Coursework.html",
+    "href": "Coursework.html",
+    "title": "CourseWork",
+    "section": "",
+    "text": "Here are some of the courses I have taken (or am taking) at Cal Poly Pomona:\n\nIBM 3202"
   },
   {
     "objectID": "about.html",
@@ -40,5 +61,19 @@
     "title": "Data Analytics Portfolio",
     "section": "Case Study 1: Sales Forecasting with Time Series",
     "text": "Case Study 1: Sales Forecasting with Time Series\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n#| fig-cap: \"Actual vs. forecasted sales\"\nset.seed(42)\ndates &lt;- seq.Date(as.Date(\"2023-01-01\"), as.Date(\"2024-12-31\"), by = \"week\")\nsales &lt;- 100 + cumsum(rnorm(length(dates), 0, 5)) + rnorm(length(dates), 0, 10)\ndf &lt;- data.frame(date = dates, sales = sales)\n\n# Simple forecast (naive)\ndf$forecast &lt;- c(NA, sales[-length(sales)])\n\nggplot(df[100:120,], aes(x = date)) +\n  geom_line(aes(y = sales, color = \"Actual\")) +\n  geom_line(aes(y = forecast, color = \"Forecast (naive)\"), linetype = \"dashed\") +\n  labs(title = \"Sales Forecast (sample window)\", y = \"Sales ($)\", x = \"Date\") +\n  scale_color_manual(values = c(\"Actual\" = \"black\", \"Forecast (naive)\" = \"red\")) +\n  theme_minimal()\n\nWarning: Removed 15 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 15 rows containing missing values or values outside the scale range\n(`geom_line()`)."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "About Me",
+    "text": "About Me\nI am a motivated university student currently pursuing a Bachelor’s degree at California State Polyterhnic University,Pomona (Cal Poly Pomona), I am passionate about learning, personal growth, and developing professional Skills, skills a that prepare me for future career opportunities! I bring strong communication abilities, multilingual skills and commitment 10 hoses; I’he eadah codhinge of collabreation, expand my knowledge, and contribute effectivelyin collaborative environments while preparing for a successful career after graduation"
+  },
+  {
+    "objectID": "index.html#professional-objective",
+    "href": "index.html#professional-objective",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "Professional Objective",
+    "text": "Professional Objective\nTo continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success.\nCheck out my Data analytics Portfolio to see some of my recent work!"
   }
 ]

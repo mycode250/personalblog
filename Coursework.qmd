@@ -1,0 +1,7 @@
+---
+title: "CourseWork"
+---
+
+Here are some of the courses I have taken (or am taking) at Cal Poly Pomona:
+
+-   IBM 3202

@@ -6,3 +6,29 @@
 .navbar-brand, .nav-link {
   color: white !important;
 }
+
+/* Make the image circular and float it left */
+.circular-image {
+  float: left;
+  width: 150px;           /* adjust as needed */
+  height: 150px;          /* must equal width for perfect circle */
+  border-radius: 50%;
+  border: 3px solid #2c3e50; /* dark outline – change color/width as desired */
+  object-fit: cover;      /* ensures image fills the circle */
+  margin-right: 20px;     /* space between image and text */
+  margin-bottom: 10px;
+}
+
+/* Optional: style headings and sections */
+h2 {
+  clear: both;            /* prevents headings from floating next to the image */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.skills, .languages {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

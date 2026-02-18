@@ -1,6 +1,8 @@
 # _quarto.yml
 project:
   type: website
+  resources:
+   - "images/"       
   output-dir: docs
 
 website:
@@ -10,7 +12,11 @@ website:
       - href: index.qmd
         text: Home
       - href: analytics.qmd
-        text: Data Analytics
+        text: Marketing Analytics
+      - href: resume.qmd
+        text: Resume
+      - href: Coursework.qmd
+        text: Coursework
     right:
       - icon: github
         href: https://github.com/amir-alnajjar

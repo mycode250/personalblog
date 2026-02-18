@@ -2,16 +2,14 @@
 title: "Hi, I'm Amir Alnajjar"
 ---
 
-![](https://www.kdnuggets.com/wp-content/uploads/Rosidi_-Top_5_Career_Paths_in_Data_Science_and_How_to_Self_Learn_for_Each_5.png){fig-align="right"}
+![](images/image-01.jpeg){.circular-image width="20%"}
 
 ## *About Me*
 
-*I’m an **up-and-coming data scientist** and a current student at **Cal Poly Pomona**, passionate about uncovering insights from data. My toolkit includes **R**, **Python**, and **Excel**, and I love building projects that combine analytical rigor with storytelling.*
+*I am a motivated university student currently pursuing a Bachelor's degree at California State Polyterhnic University,Pomona (Cal Poly Pomona), I am passionate about learning, personal growth, and developing professional Skills, skills a that prepare me for future career opportunities! I bring strong communication abilities, multilingual skills and commitment 10 hoses; I'he eadah codhinge of collabreation, expand my knowledge, and contribute effectivelyin collaborative environments while preparing for a successful career after graduation*
 
-## *Personal Statement*
+## *Professional Objective*
 
-*Data is everywhere, but raw numbers rarely tell the full story. My mission is to bridge the gap between complex data and actionable insights—whether through predictive models, interactive dashboards, or clear visualizations. I’m particularly interested in applications of machine learning in business and social impact. When I’m not coding, you’ll find me exploring data journalism, playing chess, or hiking in Southern California.*
-
-------------------------------------------------------------------------
+To continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success.
 
 *Check out my [**Data analytics Portfolio**](analytics.qmd) to see some of my recent work!*
