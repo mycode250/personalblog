@@ -1,38 +1,143 @@
 [
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Bachelor’s Degree (In Progress) California State Polytechnic University, Pomona (Cal Poly Pomona)\nHigh School Diploma Rancho Cucamogo High School Rancho Cucamonga, California"
+    "objectID": "resume.html#from-clicks-to-customers-uncovering-marketing-insights",
+    "href": "resume.html#from-clicks-to-customers-uncovering-marketing-insights",
+    "title": "Analytics Projects",
+    "section": "From Clicks to Customers: Uncovering Marketing Insights",
+    "text": "From Clicks to Customers: Uncovering Marketing Insights"
   },
   {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Resume",
-    "section": "",
-    "text": "Bachelor’s Degree (In Progress) California State Polytechnic University, Pomona (Cal Poly Pomona)\nHigh School Diploma Rancho Cucamogo High School Rancho Cucamonga, California"
+    "objectID": "resume.html#the-situation",
+    "href": "resume.html#the-situation",
+    "title": "Analytics Projects",
+    "section": "The Situation",
+    "text": "The Situation\n\nA multi-channel email campaign was conducted and data collected.\nGoal of the case study: To provide isight on how to increase repeat purchases among existing customers\nKey questions:\n\nWhich customer segments responded best?\nWas the campaign profitable?\nHow can we optimize future campaigns?"
   },
   {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "Resume",
-    "section": "Skills",
-    "text": "Skills\n\nMultilingual Communication\nTeam Collaboration"
+    "objectID": "resume.html#customer-data-snapshot",
+    "href": "resume.html#customer-data-snapshot",
+    "title": "Analytics Projects",
+    "section": "Customer Data Snapshot",
+    "text": "Customer Data Snapshot\n\n\n\nSample of customer records\n\n\ncustomer_id\nage\ngender\ntotal_spend\npurchase_frequency\ncampaign_response\n\n\n\n\n1\n62\nMale\n259.97\n4\n0\n\n\n2\n35\nFemale\n73.81\n8\n0\n\n\n3\n53\nMale\n96.65\n8\n0\n\n\n4\n54\nFemale\n548.26\n5\n0\n\n\n5\n42\nMale\n372.66\n6\n0"
   },
   {
-    "objectID": "resume.html#languages",
-    "href": "resume.html#languages",
-    "title": "Resume",
-    "section": "Languages",
-    "text": "Languages\n\nEnglish (Fluent)\nArabic (Fluent)\nSpanish (Fluent)"
+    "objectID": "resume.html#data-dictionary",
+    "href": "resume.html#data-dictionary",
+    "title": "Analytics Projects",
+    "section": "Data Dictionary",
+    "text": "Data Dictionary\n\n\n\nVariable\nDescription\n\n\n\n\ncustomer_id\nUnique identifier\n\n\nage\nCustomer age\n\n\ngender\nGender\n\n\ntotal_spend\nLifetime spend to date ($)\n\n\npurchase_frequency\nNumber of purchases lifetime\n\n\nlast_purchase_days\nDays since last purchase\n\n\nemail_opens\n# of campaign emails opened\n\n\nemail_clicks\n# of clicks in campaign\n\n\ncampaign_response\n1 if purchased after campaign, 0 otherwise"
+  },
+  {
+    "objectID": "resume.html#customer-segments",
+    "href": "resume.html#customer-segments",
+    "title": "Analytics Projects",
+    "section": "Customer Segments",
+    "text": "Customer Segments\nWe first grouped customers by total spend into three segments:"
+  },
+  {
+    "objectID": "resume.html#response-rate-by-segment",
+    "href": "resume.html#response-rate-by-segment",
+    "title": "Analytics Projects",
+    "section": "Response Rate by Segment",
+    "text": "Response Rate by Segment\n\n\n\nHigh Value customers responded at 17.2% – nearly double the average\nMedium Value segment responded at 9.8%\nLow Value segment lagged at 4.5%\n\n\nThis suggests our campaign resonated most with our best customers."
+  },
+  {
+    "objectID": "resume.html#engagement-matters",
+    "href": "resume.html#engagement-matters",
+    "title": "Analytics Projects",
+    "section": "Engagement Matters",
+    "text": "Engagement Matters\n\n\n\n\n\n\n\nKey Insight\n\n\nCustomers who opened at least one email were 6× more likely to convert than those who didn’t open any."
+  },
+  {
+    "objectID": "resume.html#campaign-roi",
+    "href": "resume.html#campaign-roi",
+    "title": "Analytics Projects",
+    "section": "Campaign ROI",
+    "text": "Campaign ROI\nWe spent $50,000 on the campaign. Each responding customer brought an average additional spend of $120.\n\n\nTotal responders: 51 \n\n\nRevenue generated: $ 6,120 \n\n\nProfit: $ -43,880 \n\n\nROI:  -87.8%"
+  },
+  {
+    "objectID": "resume.html#roi-by-segment",
+    "href": "resume.html#roi-by-segment",
+    "title": "Analytics Projects",
+    "section": "ROI by Segment",
+    "text": "ROI by Segment\n\n\n\nProfitability by Segment\n\n\nsegment\nresponders\nrevenue\ncost_allocated\nprofit\nroi\n\n\n\n\nHigh Value\n14\n$1,680\n$9,200\n-$7,520\n-81.7%\n\n\nLow Value\n19\n$2,280\n$24,300\n-$22,020\n-90.6%\n\n\nMedium Value\n18\n$2,160\n$16,500\n-$14,340\n-86.9%"
+  },
+  {
+    "objectID": "resume.html#what-should-we-do-next",
+    "href": "resume.html#what-should-we-do-next",
+    "title": "Analytics Projects",
+    "section": "What Should We Do Next?",
+    "text": "What Should We Do Next?\n\nDouble down on High Value segment – they respond best and deliver positive ROI.\nRe-engage Medium Value customers with tailored content (e.g., product recommendations).\nTest a lighter touch for Low Value segment – maybe a single reminder email instead of a full campaign.\nImprove open rates – since opens strongly predict response, A/B test subject lines and send times."
+  },
+  {
+    "objectID": "resume.html#final-thought",
+    "href": "resume.html#final-thought",
+    "title": "Analytics Projects",
+    "section": "Final Thought",
+    "text": "Final Thought\n\n“Not all customers are created equal. By focusing on segments that drive ROI, we can increase marketing efficiency and build stronger relationships.”"
+  },
+  {
+    "objectID": "resume.html#code-for-data-simulation",
+    "href": "resume.html#code-for-data-simulation",
+    "title": "Analytics Projects",
+    "section": "Code for Data Simulation",
+    "text": "Code for Data Simulation\n\nset.seed(2024)\ncustomer_data &lt;- tibble(\n  customer_id = 1:500,\n  age = round(runif(500, 18, 70)),\n  gender = sample(c(\"Male\", \"Female\", \"Non-binary\"), 500, replace = TRUE, prob = c(0.48,0.48,0.04)),\n  total_spend = round(rgamma(500, shape = 2, scale = 100), 2),\n  purchase_frequency = rpois(500, lambda = 4) + 1,\n  last_purchase_days = sample(1:365, 500, replace = TRUE),\n  email_opens = rbinom(500, size = 10, prob = 0.3),\n  email_clicks = rbinom(500, size = email_opens, prob = 0.2),\n  campaign_response = rbinom(500, size = 1, prob = 0.1 + 0.05 * scale(total_spend)[,1])\n)"
+  },
+  {
+    "objectID": "resume.html#session-info",
+    "href": "resume.html#session-info",
+    "title": "Analytics Projects",
+    "section": "Session Info",
+    "text": "Session Info\n\n\nR version 4.5.1 (2025-06-13 ucrt)\nPlatform: x86_64-w64-mingw32/x64\nRunning under: Windows 11 x64 (build 22621)\n\nMatrix products: default\n  LAPACK version 3.12.1\n\nlocale:\n[1] LC_COLLATE=English_United States.utf8 \n[2] LC_CTYPE=English_United States.utf8   \n[3] LC_MONETARY=English_United States.utf8\n[4] LC_NUMERIC=C                          \n[5] LC_TIME=English_United States.utf8    \n\ntime zone: Africa/Nairobi\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nother attached packages:\n [1] here_1.0.2       scales_1.4.0     kableExtra_1.4.0 lubridate_1.9.4 \n [5] forcats_1.0.0    stringr_1.5.2    dplyr_1.1.4      purrr_1.1.0     \n [9] readr_2.1.5      tidyr_1.3.1      tibble_3.3.0     ggplot2_3.5.2   \n[13] tidyverse_2.0.0 \n\nloaded via a namespace (and not attached):\n [1] gtable_0.3.6       jsonlite_2.0.0     compiler_4.5.1     tidyselect_1.2.1  \n [5] xml2_1.4.0         textshaping_1.0.3  systemfonts_1.3.1  yaml_2.3.10       \n [9] fastmap_1.2.0      R6_2.6.1           labeling_0.4.3     generics_0.1.4    \n[13] knitr_1.50         rprojroot_2.1.1    svglite_2.2.2      pillar_1.11.0     \n[17] RColorBrewer_1.1-3 tzdb_0.5.0         rlang_1.1.6        stringi_1.8.7     \n[21] xfun_0.53          viridisLite_0.4.2  timechange_0.3.0   cli_3.6.5         \n[25] withr_3.0.2        magrittr_2.0.3     digest_0.6.37      grid_4.5.1        \n[29] rstudioapi_0.17.1  hms_1.1.3          lifecycle_1.0.4    vctrs_0.6.5       \n[33] evaluate_1.0.5     glue_1.8.0         farver_2.1.2       rmarkdown_2.29    \n[37] tools_4.5.1        pkgconfig_2.0.3    htmltools_0.5.8.1"
   },
   {
     "objectID": "Coursework.html",
     "href": "Coursework.html",
     "title": "CourseWork",
     "section": "",
-    "text": "Here are some of the courses I have taken (or am taking) at Cal Poly Pomona:\n\nIBM 3202"
+    "text": "Throughout my academic journey at California State Polytechnic University, Pomona, I have developed a strong interdisciplinary foundation combining data analytics, business strategy, finance, operations, and organizational leadership. My coursework emphasizes applying analytical tools and theoretical frameworks to real-world business problems, allowing me to strengthen both technical and strategic thinking skills. Across multiple courses, I gained experience in data analysis, visualization, financial decision-making, operational planning, and leadership development. These learning experiences have enhanced my ability to interpret data, communicate insights effectively, and approach complex business challenges using structured problem-solving methods and collaborative approaches.\n\n\nIBM 3302 – Data Analytics:\nIn this course I learned to build analytics websites using Quarto, implement Google Analytics tracking, develop dashboards, and analyze marketing performance using R and visualization tools.\nBUS 4950 – Strategic Management\nIBM 3202 – Market Analysis and Control\nIBM 4112\nIBM 3072\nACC 2070 – Accounting\nFRL 3000 – Finance\nMHR 3010 – Management\nMHR 3020 – HR Strategy\nTOM 3020 – Operations Management"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M04-Reflection Essay-Advanced Data-Viz.html",
+    "href": "Alnajjar, Amir-M04-Reflection Essay-Advanced Data-Viz.html",
+    "title": "M04-Reflection Essay-Advanced Data Visualization",
+    "section": "",
+    "text": "1 Summarize what you learned from the presentation by Thomas Lin Pedersen on “ggplot2 workshop: Part 2 in Step 1\nhomas Lin Pedersen demonstrated that the grammar of graphics is not limited to static charts. By maintaining the core structure of data, aesthetics, geoms, and scales, we can build powerful extensions.\nTwo extensions stood out to me:\n\npatchwork: Allows you to combine multiple plots into a single layout, making it easier to tell a cohesive story.\ngganimate: Introduces time as a dimension, turning static data into a dynamic narrative.\n\n\n# patchwork examples\n\nlibrary(ggplot2)\nlibrary(patchwork)\n\n# Create two simple plots\np1 &lt;- ggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point() +\n  labs(title = \"Scatter Plot\")\n\np2 &lt;- ggplot(mtcars, aes(x = factor(cyl))) +\n  geom_bar(fill = \"steelblue\") +\n  labs(title = \"Bar Plot\", x = \"Cylinders\")\n\n# Combine them side-by-side\np1 + p2\n\n\n\n\n\n\n\n\n2 In Step 2, a short video on “ggplot2 Scales and Transformations - Data Communication / Data Visualization | Video (13:36)” was introduced. (1) Summarize it and (2) discuss how it fits with the grammar of graphics you learned in Step 1.\nScales act as the interpreter between your raw data and the visual elements on the plot. The video reinforced that scales control the mapping of data values to visual channels like position, color, and size.\nTakeaways:\n\nModifying axis breaks, limits, and labels enhances clarity.\nTransformations are crucial for visualizing skewed data.\n\nScales are the mechanism that refines the mapping defined in the aesthetic layer. While Step 1 taught us what to map, Step 2 taught us how to control the perception of that map.\n\n3 In Step 3, David Robinson’s video demonstrates impromptu data visualization. List three new functions that were not taught previously but were deemed helpful for you in the future. Briefly explain what you can do with each of the functions\nDavid Robinson’s exploratory analysis introduced me to three highly practical functions that improve readability and speed.\n\n\n\n\n\n\nFunction\nPurpose\n\n\n\nfct_reorder()\nReorders factor levels by a numeric value to make bar charts cleaner.\n\n\ngeom_smooth()\nAdds a trend line (e.g., linear model or LOESS) to a scatter plot.\n\n\ncoord_flip()\nSwaps the x and y axes, perfect for horizontal bar charts with long labels.\n\n\n\n4 What did you like about the gt and gtExtra packages demonstrated in Step 4? How do they complement data visualization using charts that we have spent so much time on so far? Under what circumstances would you prefer to use tables over charts in visualization data?\nWhile charts are excellent for spotting trends, tables are irreplaceable when precision is paramount. The gt package provides incredible control over table formatting, from font styling to grouping rows. The gtExtras package enhances this by embedding visualizations like sparklines directly into cells.\nScenarios where a table is better than chart;\n\nDisplaying exact regression outputs or financial summaries.\nSituations where the user needs to look up specific values rather than compare shapes.\nWhen space is limited and precise numbers are the primary message\n\n5 Pick three tips and tricks you learned from Data Visualization guru Cédric Schere in Step 5 and explain why you liked them. \nCédric Scherer emphasized that statistical accuracy must be paired with thoughtful design. His tips are about removing obstacles between the data and the viewer.\n\nUse Thoughtful Color Schemes: Avoid default palettes. Use deliberate, limited colors to guide the viewer’s eye.\nDirect Labeling: Place labels next to lines instead of relying on a separate legend. This reduces the cognitive load on the reader.\nEmbrace Minimalism: Remove unnecessary gridlines, backgrounds, and borders to let the data stand out.\n\n6 In Step 6, you will find my advanced visualization notebook. Run the codes one by one and digest as much as you can. What are you most impressed with about the visualization approach or tools demonstrated in the codebook? \nThe integration of multiple variables in single plots was the best feature that I liked in the advanced visualization notebook. The interactive bubble charts were used to show the possibility of displaying four or five variables at the same time without confusion. The animation also section was very strong in my view since it turned the stagnant images into moving stories as time progressed. The examples of the geospatial mapping demonstrated the effectiveness of overlaying the data onto the world and regional maps. The most impressive part to me was that each extra line of code was added to the chart and it was improved. This supported the stratified method of grammar instruction and proved the skills of higher order narrative.\n\n7 What seems to be the challenge, if any, for you when you try to master data visualization skills? How may you be able to overcome the challenge?\nMy main challenge is balancing complexity with clarity. It is easy to add layers and extensions, but difficult to ensure the final product is accessible to the audience. Additionally, memorizing the vast number of ggplot2 arguments and extension functions is daunting. To overcome these I will adopt the following strategies;\n\nRegular Practice: Recreate one published chart per week, trying to modify its style.\nBuild a Code Snippet Library: Save useful code patterns\nIterative Design: Follow the examples of Pedersen, Robinson, and Scherer by starting simple and adding complexity only when it serves the story."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M02-Intro-Data-Science-in-R.html",
+    "href": "Alnajjar, Amir-M02-Intro-Data-Science-in-R.html",
+    "title": "M02-Introduction to Data Science in R-Reflection",
+    "section": "",
+    "text": "1 Summarize new things you learned in this module about reproducible data science and literate coding\n\nReproducible data science and literate coding showed me a promising path of integrating analysis, documentation, and transparency into a workflow unified. Literate programming enables researcher to intermix narrative ideas with code and outputs instead of decoupling both concepts. This minimizes the errors as the result automatically updates with any change in data or analysis. I was taught that old systems of work of copying of results by hand in programs lead to inconsistencies and undermine credibility. The reproducibility concept helps to ascertain that other individuals are able to replicate the findings under the same protocols. This method increases the validity of research and cooperation. The knowledge of reproducibility also assists in keeping track of well organized work that could be revisited in future without any misunderstanding and loss of analytical order.\n\n\n2 Summarize the instructor’s lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or study, like taking notes in your class or preparing a presentation? More eye-catching effects will be introduced in later modules.\n\nThe Quarto lecture by the instructor was excellent in that it demonstrated how writing, coding, and publishing can be achieved within a single space. Quarto also enables users to create various types of products including an HTML, PDF, presentation, and web based product out of one document. I have also discovered that Quarto has no limitations with operating other tools such as RStudio, Jupyter, and VS Code, thus it can be used on various workflows. Some of the aspects highlighted in the lecture were visual editing, the possibilities of formatting, and the ability to combine several programming languages into a single file. I will be able to visualize myself using Quarto every day to take crisp notes on classes or compiling reports. Professional outputs made automatically would enhance efficiency and organization and save repetitive formatting.\n\n\n3 Summarize the video presentation about reproducibility crisis. What do you think about reproducible crisis in your field? How can Quarto help address the concerns you have about reproducibility in the line of your work?\n\nThe video presentation summarized the reproducibility crisis as the case where researchers fail to replicate the published results, with the use of the same data and methods. Several problems are created at the time when steps of analysis are manually done or not well documented. As a case in point, cross-copying the statistics in the software programs will raise the chances of errors and the lack of transparency. I believe that this crisis applies to areas such as data analysis since ambiguous work flow diminishes the confidence in results. In my work or studies, reproducibility guarantees accuracy and responsibility. Quarto is able to solve these issues by connecting code, analysis, and written explanations into one reproducible document. This helps in the stability in the results and makes it simple to review even decades later.\n\n\n4 Summarize what you learned in this module about the Tidyverse ecosystem in R. What can you do with R?\n\nThe module made me know that the Tidyverse ecosystem is a group of integrated R packages which are used to wrangle, analyze, and visualize data. Tidyverse eases the coding process through its uniform syntax that is simple to learn as compared to base R. I got to know that R is not only able to execute numerous statistical operations, but can also be used to build machine learning models, create dashboards, generate documents, and even to create interactive visualizations. The packages such as ggplot2 allow more complex chart construction, whereas other packages are utilized to encourage effective data handling. The Tidyverse style of doing things enhances the clarity of the working process since each process is logically structured. In general, R turns out to be a potent platform where a set of analysis, visualization, and reporting can take place.\nBelow is a brief summary of the descriptions of the core packages;\n\nTidyverse core packages\n\n\n\n\n\nPackage\nDescription\n\n\n\nggplot2\nCreates elegant graphics using a layered grammar of graphics.\n\n\ndplyr\nProvides a consistent set of verbs for data manipulation (e.g., filter(), select(), mutate())\n\n\ntidyr\nHelps tidy data by reshaping, separating, and nesting columns.\n\n\nreadr\nOffers fast and friendly functions to read rectangular data (CSV, TSV, etc.).\n\n\npurrr\nEnhances R’s functional programming toolkit for working with lists and vectors.\n\n\ntibble\nA modern reimagining of data frames, with better printing and subsetting.\n\n\nStringr\nSimplifies common string operations with a consistent, easy-to-remember interface.\n\n\nForcats\nProvides tools for working with categorical variables (factors).\n\n\n\nPlease see below an example of the tidyverse package in action;\n\n\n# Load the tidyverse\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.2\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n# Take a peek at the starwars data\nglimpse(starwars)\n\nRows: 87\nColumns: 14\n$ name       &lt;chr&gt; \"Luke Skywalker\", \"C-3PO\", \"R2-D2\", \"Darth Vader\", \"Leia Or…\n$ height     &lt;int&gt; 172, 167, 96, 202, 150, 178, 165, 97, 183, 182, 188, 180, 2…\n$ mass       &lt;dbl&gt; 77.0, 75.0, 32.0, 136.0, 49.0, 120.0, 75.0, 32.0, 84.0, 77.…\n$ hair_color &lt;chr&gt; \"blond\", NA, NA, \"none\", \"brown\", \"brown, grey\", \"brown\", N…\n$ skin_color &lt;chr&gt; \"fair\", \"gold\", \"white, blue\", \"white\", \"light\", \"light\", \"…\n$ eye_color  &lt;chr&gt; \"blue\", \"yellow\", \"red\", \"yellow\", \"brown\", \"blue\", \"blue\",…\n$ birth_year &lt;dbl&gt; 19.0, 112.0, 33.0, 41.9, 19.0, 52.0, 47.0, NA, 24.0, 57.0, …\n$ sex        &lt;chr&gt; \"male\", \"none\", \"none\", \"male\", \"female\", \"male\", \"female\",…\n$ gender     &lt;chr&gt; \"masculine\", \"masculine\", \"masculine\", \"masculine\", \"femini…\n$ homeworld  &lt;chr&gt; \"Tatooine\", \"Tatooine\", \"Naboo\", \"Tatooine\", \"Alderaan\", \"T…\n$ species    &lt;chr&gt; \"Human\", \"Droid\", \"Droid\", \"Human\", \"Human\", \"Human\", \"Huma…\n$ films      &lt;list&gt; &lt;\"A New Hope\", \"The Empire Strikes Back\", \"Return of the J…\n$ vehicles   &lt;list&gt; &lt;\"Snowspeeder\", \"Imperial Speeder Bike\"&gt;, &lt;&gt;, &lt;&gt;, &lt;&gt;, \"Imp…\n$ starships  &lt;list&gt; &lt;\"X-wing\", \"Imperial shuttle\"&gt;, &lt;&gt;, &lt;&gt;, \"TIE Advanced x1\",…\n\n# 1. Filter characters that are human and not missing height\n# 2. Select name, height, mass, and homeworld\n# 3. Create a new column: BMI (body mass index) using kg/m²\n# 4. Arrange by BMI descending\n# 5. Show top 10\nstarwars %&gt;%\n  filter(species == \"Human\", !is.na(height), !is.na(mass)) %&gt;%\n  select(name, height, mass, homeworld) %&gt;%\n  mutate(\n    height_m = height / 100,          # convert cm to m\n    bmi = mass / (height_m^2)          # calculate BMI\n  ) %&gt;%\n  arrange(desc(bmi)) %&gt;%\n  slice_head(n = 10) %&gt;%\n  print()\n\n# A tibble: 10 × 6\n   name               height  mass homeworld height_m   bmi\n   &lt;chr&gt;               &lt;int&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt; &lt;dbl&gt;\n 1 Owen Lars             178   120 Tatooine      1.78  37.9\n 2 Darth Vader           202   136 Tatooine      2.02  33.3\n 3 Beru Whitesun Lars    165    75 Tatooine      1.65  27.5\n 4 Wedge Antilles        170    77 Corellia      1.7   26.6\n 5 Luke Skywalker        172    77 Tatooine      1.72  26.0\n 6 Palpatine             170    75 Naboo         1.7   26.0\n 7 Lobot                 175    79 Bespin        1.75  25.8\n 8 Lando Calrissian      177    79 Socorro       1.77  25.2\n 9 Biggs Darklighter     183    84 Tatooine      1.83  25.1\n10 Han Solo              180    80 Corellia      1.8   24.7\n\n\n\n5 Refer to the video introducing two 20 packages. Among the various packages introduced, choose two packages beyond the Tidyverse ecosystem, base R, and Quarto that could enhance your job/career. Tell me why you think so.\n\nTwo packages outside the Tidyverse ecosystem that may contribute to my career are Shiny and reticulate.\nShiny will enable users to develop interactive user interfaces and dashboards in R, which can be helpful to display the insights of data to nontechnical users. This should be able to enhance the delivery of analytics findings in professional environments.\nThe reticulate allows the combination of R and Python in a single workflow to allow the analyst to leverage the benefits of both programming languages. I think these tools raise flexibility and open up more career opportunities since a contemporary data science requires interdisciplinary skills. The use of learning packages that embrace automation, interactivity and cross-language workflows can assist in enhancing productivity and collaboration in the real world projects.\nThe code bel\n\n\n6 Refer to the debate on R vs. Python. What is your take on this debate? \n\nPersonally, I believe that the discussion on Python and R is not a contest but a complement because of the applications of each language. R is better at statistical analysis and visualization whereas Python can perform well in general programming and machine learning development. In the modern workflows, interoperability is eminent in the sense that different languages are regularly used by the analysts, depending on the task. Learning the ability to combine both languages is more flexible and career ready in lieu of selecting either one. In my opinion, the tools that facilitate cross-language environment allow data scientists to choose an option that works best in any given problem. Thus, studying both eco systems may result in improved efficiency and flexibility of data-driven working and problem solving."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M01-1-Intro_Principle.html",
+    "href": "Alnajjar, Amir-M01-1-Intro_Principle.html",
+    "title": "Module 1 Introduction to Literate Programming with Quarto",
+    "section": "",
+    "text": "This is bold\nThis is code\nThis is italics"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M01-1-Intro_Principle.html#hello",
+    "href": "Alnajjar, Amir-M01-1-Intro_Principle.html#hello",
+    "title": "Module 1 Introduction to Literate Programming with Quarto",
+    "section": "",
+    "text": "This is bold\nThis is code\nThis is italics"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M01-1-Intro_Principle.html#my-name-is",
+    "href": "Alnajjar, Amir-M01-1-Intro_Principle.html#my-name-is",
+    "title": "Module 1 Introduction to Literate Programming with Quarto",
+    "section": "\n2 My name is",
+    "text": "2 My name is\n\n2.1 Alnajjar\n\npoint 1\npoint 2"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M01-1-Intro_Principle.html#quarto",
+    "href": "Alnajjar, Amir-M01-1-Intro_Principle.html#quarto",
+    "title": "Module 1 Introduction to Literate Programming with Quarto",
+    "section": "\n3 Quarto",
+    "text": "3 Quarto\n\nwebsite 1\nwebsite 2\n\n\n\n\n\n\n\n\nTipHello\n\n\n\n\n\n\nblockquoting\n\n\nTable 1: This is a table\n\n\n\nCol1\nCol2\nCol3\nCol4\nCol5\n\n\n\n5\n6\n55\n6\n54\n\n\n20\n32\n56\n7\n67\n\n\n8\n54\n22\n90\n55\n\n\n66\n9\n5\n76\n34\n\n\n\n\n\n\nTable 1\n\n```{r}\nplot(cars)\n```\n\n\n\n\n\n\n\n\n#install.packages(\"\")\nlibrary(palmerpenguins)\npenguins |&gt;\n  head()"
   },
   {
     "objectID": "about.html",
@@ -49,31 +154,248 @@
     "text": "Case Study 1: Sales Forecasting with Time Series\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n#| fig-cap: \"Actual vs. forecasted sales\"\nset.seed(42)\ndates &lt;- seq.Date(as.Date(\"2023-01-01\"), as.Date(\"2024-12-31\"), by = \"week\")\nsales &lt;- 100 + cumsum(rnorm(length(dates), 0, 5)) + rnorm(length(dates), 0, 10)\ndf &lt;- data.frame(date = dates, sales = sales)\n\n# Simple forecast (naive)\ndf$forecast &lt;- c(NA, sales[-length(sales)])\n\nggplot(df[100:120,], aes(x = date)) +\n  geom_line(aes(y = sales, color = \"Actual\")) +\n  geom_line(aes(y = forecast, color = \"Forecast (naive)\"), linetype = \"dashed\") +\n  labs(title = \"Sales Forecast (sample window)\", y = \"Sales ($)\", x = \"Date\") +\n  scale_color_manual(values = c(\"Actual\" = \"black\", \"Forecast (naive)\" = \"red\")) +\n  theme_minimal()\n\nWarning: Removed 15 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 15 rows containing missing values or values outside the scale range\n(`geom_line()`)."
   },
   {
-    "objectID": "analytics.html",
-    "href": "analytics.html",
-    "title": "Data Analytics Portfolio",
+    "objectID": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html",
+    "href": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html",
+    "title": "M01-2-Introduction to Literate Programming-Application Assignment",
     "section": "",
-    "text": "Here are a few case studies showcasing my work with R and Python. Each project includes visualizations and key metrics."
+    "text": "Create a variable called X and assign the text “This is my first assignment” to it. \n\n\nX &lt;- \"This is my first assignment\" #creates a variable and assigns a string\n\nX\n\n[1] \"This is my first assignment\""
   },
   {
-    "objectID": "analytics.html#case-study-1-sales-forecasting-with-time-series",
-    "href": "analytics.html#case-study-1-sales-forecasting-with-time-series",
-    "title": "Data Analytics Portfolio",
-    "section": "Case Study 1: Sales Forecasting with Time Series",
-    "text": "Case Study 1: Sales Forecasting with Time Series\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n#| fig-cap: \"Actual vs. forecasted sales\"\nset.seed(42)\ndates &lt;- seq.Date(as.Date(\"2023-01-01\"), as.Date(\"2024-12-31\"), by = \"week\")\nsales &lt;- 100 + cumsum(rnorm(length(dates), 0, 5)) + rnorm(length(dates), 0, 10)\ndf &lt;- data.frame(date = dates, sales = sales)\n\n# Simple forecast (naive)\ndf$forecast &lt;- c(NA, sales[-length(sales)])\n\nggplot(df[100:120,], aes(x = date)) +\n  geom_line(aes(y = sales, color = \"Actual\")) +\n  geom_line(aes(y = forecast, color = \"Forecast (naive)\"), linetype = \"dashed\") +\n  labs(title = \"Sales Forecast (sample window)\", y = \"Sales ($)\", x = \"Date\") +\n  scale_color_manual(values = c(\"Actual\" = \"black\", \"Forecast (naive)\" = \"red\")) +\n  theme_minimal()\n\nWarning: Removed 15 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 15 rows containing missing values or values outside the scale range\n(`geom_line()`)."
+    "objectID": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-1",
+    "href": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-1",
+    "title": "M01-2-Introduction to Literate Programming-Application Assignment",
+    "section": "2.1 Part 1",
+    "text": "2.1 Part 1\n\nLook up paste() function from help to learn how to use it. In the help document, you will find some use cases as examples toward the bottom of the page. Copy some of them and paste them into your codebook inside a code chunk right below this instruction. Execute one line at a time and learn how they work.\n\n\npaste0(1:12)\n\n [1] \"1\"  \"2\"  \"3\"  \"4\"  \"5\"  \"6\"  \"7\"  \"8\"  \"9\"  \"10\" \"11\" \"12\"\n\npaste(1:12) \n\n [1] \"1\"  \"2\"  \"3\"  \"4\"  \"5\"  \"6\"  \"7\"  \"8\"  \"9\"  \"10\" \"11\" \"12\"\n\n(nth &lt;- paste0(1:12, c(\"st\", \"nd\", \"rd\", rep(\"th\", 9))))\n\n [1] \"1st\"  \"2nd\"  \"3rd\"  \"4th\"  \"5th\"  \"6th\"  \"7th\"  \"8th\"  \"9th\"  \"10th\"\n[11] \"11th\" \"12th\"\n\npaste0(nth, collapse = \", \") #To collapse the output into a single string, pass a collapse argument.\n\n[1] \"1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th\"\n\npaste(\"1st\", \"2nd\", \"3rd\", sep = \", \") #For inputs of length 1, use the sep argument rather than collapse\n\n[1] \"1st, 2nd, 3rd\""
+  },
+  {
+    "objectID": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-2",
+    "href": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-2",
+    "title": "M01-2-Introduction to Literate Programming-Application Assignment",
+    "section": "2.2 Part 2",
+    "text": "2.2 Part 2\n\nUsing `paste()` function, add “and I’m loving it!” to `X`, the variable that you just created.\n\n\npaste(X, \"and I'm loving it!\") #adding a new string to a string variable\n\n[1] \"This is my first assignment and I'm loving it!\""
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "",
+    "text": "# Calling required libraries\nlibrary(tidyverse)\nlibrary(ggrepel)\nlibrary(ggthemes)\nlibrary(scales)\nlibrary(plotly)\nlibrary(lattice)\nlibrary(GGally)\n# Calling the wooldridge library containing the attend dataset\nlibrary(wooldridge)\ndf &lt;- attend\ndf &lt;- as_tibble(df)\nhead(df)\n\n# A tibble: 6 × 11\n  attend termGPA priGPA   ACT final atndrte hwrte frosh  soph missed stndfnl\n   &lt;int&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt; &lt;int&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;int&gt;  &lt;int&gt;   &lt;dbl&gt;\n1     27    3.19   2.64    23    28    84.4 100       0     1      5  0.473 \n2     22    2.73   3.52    25    26    68.8  87.5     0     0     10  0.0525\n3     30    3      2.46    24    30    93.8  87.5     0     0      2  0.893 \n4     31    2.04   2.61    20    27    96.9 100       0     1      1  0.263 \n5     32    3.68   3.32    23    34   100   100       0     1      0  1.73  \n6     29    3.23   2.93    26    25    90.6 100       0     1      3 -0.158"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n3.1 3.1",
+    "text": "3.1 3.1\n\ndf %&gt;%\n  ggplot(aes(x = ACT)) +\n  geom_bar(fill = \"lightblue\") +\n  labs(title = \"Distribution of ACT Scores\",\n       x = \"ACT Score\", y = \"Count\") +\n  theme_bw()\n\n\n\n\n\n\n\n\nIt is a normal distribution"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#dodge-stack-and-faceted-barplots",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#dodge-stack-and-faceted-barplots",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n3.2 Dodge, Stack and Faceted Barplots",
+    "text": "3.2 Dodge, Stack and Faceted Barplots\n\n# Recoding/Relabelling the Sophomore Column\ndf_soph &lt;- df %&gt;%\n  mutate(label_soph = factor(soph,\n                              levels = c(0, 1),\n                              labels = c(\"Not Sophomore\", \"Sophomore\")))\n\n#Plotting a Stacked Bar Chart\nggplot(df_soph, aes(x = ACT, y = final, fill = label_soph)) +\ngeom_col(position = \"dodge\", width = 0.9) +\nscale_fill_manual(values = c(\"Not Sophomore\" = \"brown\", \"Sophomore\" = \"pink\")) +\n  labs(title = \"Dodge Bar Chart: Final Score by ACT and Sophomore Status\",\n       x = \"ACT Score\", y = \"Final Score\",\n       fill = \"Sophomore Status\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n#Plotting a Stacked Bar Chart\nggplot(df_soph, aes(x = ACT, y = final, fill = label_soph)) +\n  geom_col(position = \"stack\", width = 0.9) +\n  scale_fill_manual(values = c(\"Not Sophomore\" = \"purple\", \"Sophomore\" = \"skyblue\")) +\n  labs(title = \"Final Score by ACT and Sophomore Status (Stacked)\",\n       x = \"ACT Score\", y = \"Final Score\",\n       fill = \"Sophomore Status\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n#Plotting a Facetted Bar Chart\nggplot(df_soph, aes(x = ACT, y = final, fill = label_soph)) +\n  geom_col(width = 0.7) +\n  facet_wrap(~ label_soph) +\n  scale_fill_manual(values = c(\"Not Sophomore\" = \"black\", \"Sophomore\" = \"lightblue\")) +\n  labs(title = \"Facetted Bar chart: Final Score by ACT\",\n       x = \"ACT Score\", y = \"Final Score\") +\n  theme_bw() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#conclusion",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#conclusion",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n3.3 Conclusion",
+    "text": "3.3 Conclusion\nSince y-axis values in dodge bar chart follow those final score values in the attend data set, it is more likely that it accurately describes it."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#carefully-evaluate-the-three-charts-dodged-bar-chart-stacked-bar-chart-or-faceted-bar-chart.-pay-attention-to-the-value-of-the-y-variable-too.-which-ones-if-any-do-you-think-accurately-describes-the-data-why-do-you-think-so",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#carefully-evaluate-the-three-charts-dodged-bar-chart-stacked-bar-chart-or-faceted-bar-chart.-pay-attention-to-the-value-of-the-y-variable-too.-which-ones-if-any-do-you-think-accurately-describes-the-data-why-do-you-think-so",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n4.1 Carefully evaluate the three charts – dodged bar chart, stacked bar chart, or faceted bar chart. Pay attention to the value of the y variable too. Which one(s), if any, do you think accurately describe(s) the data? Why do you think so?",
+    "text": "4.1 Carefully evaluate the three charts – dodged bar chart, stacked bar chart, or faceted bar chart. Pay attention to the value of the y variable too. Which one(s), if any, do you think accurately describe(s) the data? Why do you think so?\nThe dodged and faceted bar charts provide verification that the data aggregation was performed correctly, with the displayed means aligning perfectly with the values calculated from the underlying raw data."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#compare-the-dodged-bar-plot-from-q3.2-with-the-dodged-bar-chart-from-q4.2.-which-chart-would-you-trust-and-why",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#compare-the-dodged-bar-plot-from-q3.2-with-the-dodged-bar-chart-from-q4.2.-which-chart-would-you-trust-and-why",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n4.2 Compare the dodged bar plot from Q3.2 with the dodged bar chart from Q4.2. Which chart would you trust and why?",
+    "text": "4.2 Compare the dodged bar plot from Q3.2 with the dodged bar chart from Q4.2. Which chart would you trust and why?\n\nThe dodged bar chart in 3.2 plots every individual final score, creating a crowded field of overlapping bars that obscures rather than illuminates. By displaying raw observations instead of group summaries, it fails to convey clear trends.\nSection 4.2 takes a more effective approach, aggregating final scores by ACT level and sophomore status to show average performance. This summary cuts through the noise, revealing central tendencies and enabling direct group comparisons. The result is a clear visualization of how ACT scores, final grades, and the moderating variable relate.\nIn short, the mean-based chart is the superior choice—it distills the data into a trustworthy, informative summary that supports sound conclusions."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-would-you-say-about-the-differences-in-the-patterns-of-relationships-between-act-and-final-scores-shown-in-the-sophomore-and-non-sophomore-groups",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-would-you-say-about-the-differences-in-the-patterns-of-relationships-between-act-and-final-scores-shown-in-the-sophomore-and-non-sophomore-groups",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n4.3 What would you say about the differences in the patterns of relationships between ACT and final scores shown in the sophomore and non-sophomore groups?",
+    "text": "4.3 What would you say about the differences in the patterns of relationships between ACT and final scores shown in the sophomore and non-sophomore groups?\nFor both freshmen and sophomores, higher ACT scores correspond to higher mean final scores. Yet at most points along the ACT spectrum, sophomores hold a slight edge. This suggests two forces at work: ACT scores capture underlying academic ability, while the sophomore bump likely reflects the benefits of having already navigated a year of college and its academic demands."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#boxplot",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#boxplot",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n5.1 Boxplot",
+    "text": "5.1 Boxplot\n\nggplot(df_soph, aes(x = factor(ACT), y = final, fill = label_soph)) +\n  geom_boxplot(outlier.shape = NA, alpha = 0.7) +   \n  geom_jitter(position = position_jitterdodge(jitter.width = 0.3, dodge.width = 0.6), aes(color = label_soph), alpha = 0.5, size = 3) +\n  scale_fill_manual(values = c(\"Not Sophomore\" = \"orange\", \"Sophomore\" = \"green\")) +\n  scale_color_manual(values = c(\"Not Sophomore\" = \"maroon\", \"Sophomore\" = \"pink\")) +\n  labs(title = \"Final Scores by ACT and Sophomore Status\",\n       x = \"ACT Score\", y = \"Final Score\",\n       fill = \"Sophomore Status\", color = \"Sophomore Status\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#describe-the-differences-between-the-box-plot-above-and-the-barplot-with-you-chose-from-q4.-which-one-do-you-prefer-and-why",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#describe-the-differences-between-the-box-plot-above-and-the-barplot-with-you-chose-from-q4.-which-one-do-you-prefer-and-why",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n5.2 Describe the differences between the box plot above and the barplot with you chose from Q4. Which one do you prefer and why",
+    "text": "5.2 Describe the differences between the box plot above and the barplot with you chose from Q4. Which one do you prefer and why\nThe bar plots from Question 4 facilitate a rapid comparison of central tendencies across groups. However, the boxplot presented in Question 5 offers a deeper level of insight by also displaying the distribution’s spread, median, and potential outliers. Consequently, my preference is for the boxplot with jitter, as it delivers a more complete and differentiated summary of the data."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-would-you-say-about-the-differences-in-the-patterns-of-relationships-between-act-and-final-scores-shown-in-the-sophomore-and-non-sophomore-groups-1",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-would-you-say-about-the-differences-in-the-patterns-of-relationships-between-act-and-final-scores-shown-in-the-sophomore-and-non-sophomore-groups-1",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n5.3 What would you say about the differences in the patterns of relationships between ACT and final scores shown in the sophomore and non-sophomore groups?",
+    "text": "5.3 What would you say about the differences in the patterns of relationships between ACT and final scores shown in the sophomore and non-sophomore groups?\nSophomores consistently outperform freshmen on final scores, with slightly higher medians observed across most ACT score levels. This pattern supports the hypothesis that additional academic experience or maturity contributes to better performance.\nBoth groups show similar interquartile ranges, indicating comparable variability within each class. However, freshmen at the lower end of the ACT distribution display more extreme low outliers, suggesting a greater likelihood of very poor final performance among this subgroup.\nThe performance gap between sophomores and freshmen remains relatively stable across the ACT score spectrum. This consistency points to a main effect of class status rather than an interaction with ACT scores—the sophomore advantage manifests as a consistent upward shift in the score distribution, with no evidence that the relationship between ACT and final scores differs by group."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#boxplot-1",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#boxplot-1",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n6.1 Boxplot",
+    "text": "6.1 Boxplot\n\ndf_fresh &lt;- df %&gt;%\n  mutate(freshman_label = factor(frosh,\n                                  levels = c(0, 1),\n                                  labels = c(\"Non-Freshman\", \"Freshman\")))\n\nggplot(df_fresh , aes(x = factor(ACT), y = atndrte, fill = freshman_label)) +\n  geom_boxplot(outlier.shape = NA, alpha = 0.7) +\n  geom_jitter(position = position_jitterdodge(jitter.width = 0.4, dodge.width = 1.0),\n              aes(color = freshman_label), alpha = 0.45, size = 1.0) +\n  scale_fill_manual(values = c(\"Non-Freshman\" = \"green\", \"Freshman\" = \"yellow\")) +\n  scale_color_manual(values = c(\"Non-Freshman\" = \"blue\", \"Freshman\" = \"red\")) +\n  labs(title = \"Attendance Rate by ACT Score and Freshman Status\",\n       x = \"ACT Score\", y = \"Attendance Rate\",\n       fill = \"Status\", color = \"Status\")+\n  theme_minimal()"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#is-the-relationship-between-x-and-y-shown-in-the-non-freshman-group-denoted-as-0-in-the-data-the-same-as-that-shown-in-the-freshman-group",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#is-the-relationship-between-x-and-y-shown-in-the-non-freshman-group-denoted-as-0-in-the-data-the-same-as-that-shown-in-the-freshman-group",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n6.2 Is the relationship between x and y shown in the non-freshman group (denoted as “0” in the data) the same as that shown in the freshman group?",
+    "text": "6.2 Is the relationship between x and y shown in the non-freshman group (denoted as “0” in the data) the same as that shown in the freshman group?\nThere is a moderating effect of freshman status on the relationship between ACT scores and attendance. For non-freshmen, there is a pronounced and steady increase in attendance corresponding with higher ACT scores. Conversely, this gradient is shallower and less systematic for freshmen. The data therefore indicate that the influence of ACT scores on attendance is conditional upon freshman status."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#scatterplots",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#scatterplots",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n7.1 Scatterplots",
+    "text": "7.1 Scatterplots\n\nggplot(df_fresh, aes(x = ACT, y = atndrte)) +\n  geom_point(alpha = 0.6, color = \"orange\") +\n  geom_smooth(method = \"lm\", se = FALSE, color = \"blue\") +\n  facet_wrap(~ freshman_label) +\n  labs(title = \"Attendance Rate vs. ACT Score\",\n       x = \"ACT Score\", y = \"Attendance Rate (%)\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#in-sum-describe-what-you-found-in-the-relationship-between-x-and-y-and-how-the-relationship-pattern-is-different-across-the-two-freshman-status-groups.",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#in-sum-describe-what-you-found-in-the-relationship-between-x-and-y-and-how-the-relationship-pattern-is-different-across-the-two-freshman-status-groups.",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n7.2 In sum, describe what you found in the relationship between x and y and how the relationship pattern is different across the two freshman status groups.",
+    "text": "7.2 In sum, describe what you found in the relationship between x and y and how the relationship pattern is different across the two freshman status groups.\nWhen exploring moderation, visualize the relationship, not just the means. Scatter plots with fitted lines allow you to assess both slope differences (the interaction) and intercept differences (the main effect). Here, the plot clearly shows that freshmen not only attend less across all ACT levels but also show a diminished response to ACT. This nuanced story would be completely lost in a traditional bar plot of means."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#correlation-plots",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#correlation-plots",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n8.1 Correlation plots",
+    "text": "8.1 Correlation plots\n\nvar &lt;- df %&gt;% \n  select(attend, termGPA, priGPA, ACT, final, atndrte, hwrte)\n\n# drawing ggpairs\nggpairs(var, title = \"Correlation Matrix (ggpairs)\") +\n  theme_minimal()\n\n\n\n\n\n\n#drawing ggcorr\nggcorr_plot &lt;- ggcorr(var, label = TRUE,\n                   label_round = 2,\n                   hjust = 0.75,\n                   size = 3,\n                   layout.exp = 2) +\n  labs(title = \"Correlation Heatmap\") +\n  theme_bw()\nprint(ggcorr_plot)"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section-1",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section-1",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n8.2 8.2",
+    "text": "8.2 8.2"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#the-correlations-among-variables-give-us-insights-into-what-students-should-do-to-improve-their-gpa-termgpa-and-prigpa.-accoridng-to-the-data-between-attendance-rate-atndrte-and-the-rate-of-homework-turned-in-hwrte-which-is-a-moreeffective-way-to-improve-gpas-note-you-dont-need-to-test-differences-in-correlations-use-eyeballing",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#the-correlations-among-variables-give-us-insights-into-what-students-should-do-to-improve-their-gpa-termgpa-and-prigpa.-accoridng-to-the-data-between-attendance-rate-atndrte-and-the-rate-of-homework-turned-in-hwrte-which-is-a-moreeffective-way-to-improve-gpas-note-you-dont-need-to-test-differences-in-correlations-use-eyeballing",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n8.3 The correlations among variables give us insights into what students should do to improve their GPA (termGPA and priGPA). Accoridng to the data, between attendance rate (“atndrte”) and the rate of homework turned in (“hwrte”), which is a moreeffective way to improve GPA’s? (note you don’t need to test differences in correlations; use eyeballing)",
+    "text": "8.3 The correlations among variables give us insights into what students should do to improve their GPA (termGPA and priGPA). Accoridng to the data, between attendance rate (“atndrte”) and the rate of homework turned in (“hwrte”), which is a moreeffective way to improve GPA’s? (note you don’t need to test differences in correlations; use eyeballing)\n\n# Getting attendance rate and howework turn in rate, termGPA and priGPA relationship\ncor(var[, c(\"atndrte\", \"hwrte\")], var[, c(\"termGPA\", \"priGPA\")], use = \"complete.obs\")\n\n          termGPA    priGPA\natndrte 0.5384264 0.4196933\nhwrte   0.5048751 0.3072889\n\n\nAttendance rate correlates more strongly with both term GPA and prior GPA than submitting homework does. From this we conclude that attending classes often may better ones grades than submitting homework."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#a-scatter-plot-with-a-linear-regression-line",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#a-scatter-plot-with-a-linear-regression-line",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n9.1 A scatter plot with a linear regression line",
+    "text": "9.1 A scatter plot with a linear regression line\n\ndf_soph &lt;- df %&gt;%\n  mutate(soph_label = factor(soph,\n                              levels = c(0, 1),\n                              labels = c(\"Not Sophomore\", \"Sophomore\")))\n\nscatter_plt &lt;- ggplot(df_soph, aes(x = priGPA, y = termGPA, color = soph_label)) +\n  geom_point(alpha = 0.4) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  scale_color_manual(values = c(\"Not Sophomore\" = \"maroon\", \"Sophomore\" = \"black\"))+\n  labs(title = \"Prior GPA vs. Term GPA\",\n       subtitle = \"Separated by Sophomore Status\",\n       x = \"Prior GPA\", y = \"Term GPA\",\n       color = \"Sophomore Status\") +\n  theme_bw()\n\n# Print the plot\nprint(scatter_plt)"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-can-you-tell-about-the-strengths-of-the-relationships-between-prigpa-and-termgpa",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#what-can-you-tell-about-the-strengths-of-the-relationships-between-prigpa-and-termgpa",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n9.2 What can you tell about the strengths of the relationships between priGPA and termGPA?\n",
+    "text": "9.2 What can you tell about the strengths of the relationships between priGPA and termGPA?\n\nThe plot above shows a strong positive linear relationship between prior GPA and term GPA in both groups, sophomore and freshman."
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section-2",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#section-2",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n10.1 10.1",
+    "text": "10.1 10.1\n\n#making the plot in question 9 interactive\nggplotly(plot_gpa)\n\nError: object 'plot_gpa' not found"
+  },
+  {
+    "objectID": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#save-your-plot-created-in-question-8-as-an-image-file-with-the-following-namemyplot.png-and-prepare-to-submit-it-in-the-next-step.",
+    "href": "Alnajjar, Amir-M03-2-Data-Viz-Application.html#save-your-plot-created-in-question-8-as-an-image-file-with-the-following-namemyplot.png-and-prepare-to-submit-it-in-the-next-step.",
+    "title": "M03-2: Data Visualization-Application Assignment",
+    "section": "\n10.2 Save your plot created in Question 8 as an image file with the following name:“myplot.png” and prepare to submit it in the next step.",
+    "text": "10.2 Save your plot created in Question 8 as an image file with the following name:“myplot.png” and prepare to submit it in the next step.\n\n#Saving the ggcorr_plt from question 8 into a png \nggsave(\"myplot.png\", plot = ggcorr_plot, width = 8, height = 6)"
+  },
+  {
+    "objectID": "analytics.html",
+    "href": "analytics.html",
+    "title": "Past Class Projects",
+    "section": "",
+    "text": "Here are a few links to IBM 3202 class projects and assignments showcasing my work with in R"
+  },
+  {
+    "objectID": "analytics.html#introduction-to-literate-programming",
+    "href": "analytics.html#introduction-to-literate-programming",
+    "title": "Past Class Projects",
+    "section": "Introduction to Literate Programming",
+    "text": "Introduction to Literate Programming\nIn this module, I learned how to make the best use of the Quarto Markdown within RStudio. In Quarto, you can run not only R codes but also Python codes or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.\nCheck out module 01 project to see this work!"
+  },
+  {
+    "objectID": "analytics.html#in-depth-literate-programming-data-science-and-rs-capabilities",
+    "href": "analytics.html#in-depth-literate-programming-data-science-and-rs-capabilities",
+    "title": "Past Class Projects",
+    "section": "In-depth Literate Programming, Data Science and R’s Capabilities",
+    "text": "In-depth Literate Programming, Data Science and R’s Capabilities\nThe goal of this module was to introduce the world of data science in R and get you ready for the rest of the modules. To do so, you will be watching many short video clips and be given an opportunity to reflect on what you learned and set your personal goal for this course. You should understand that this course is comprehensive to be able to accommodate both novices and experienced R users. You should set a realistic goal depending on your time availability.  Your goal can be either (1) obtaining coding literacy, (2) becoming intermediate users, or (3) becoming advanced users. Regardless of your goal, you should all get appropriate grades to pass the course if you don’t give up. Stick with your plan and continue to allocate the time you commit to achieve your goal.\nCheck out module 02 project to see this work!"
+  },
+  {
+    "objectID": "analytics.html#data-visualization-with-ggplot2",
+    "href": "analytics.html#data-visualization-with-ggplot2",
+    "title": "Past Class Projects",
+    "section": "Data Visualization with ggplot2",
+    "text": "Data Visualization with ggplot2\nThe ggplot 2 is a plotting package that provides a powerful array of functions to create any charts from data. It provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties. Therefore, we only need minimal changes if the underlying data changes or if we decide to change from one plot to another. This helps in creating publication-quality plots with minimal amounts of adjustments and tweaking. It is the ggplot2 package that makes R the king of data visualization tools and is included. It is no wonder ggplot2 is part of Tidyverse\nIn this module, you I was introduced to conceptsof the grammar of graphics when visualizing data with the ggplot2 package.\nCheck out module 03 project to see this work!"
+  },
+  {
+    "objectID": "analytics.html#advanced-data-visualization-overview",
+    "href": "analytics.html#advanced-data-visualization-overview",
+    "title": "Past Class Projects",
+    "section": "Advanced Data Visualization Overview",
+    "text": "Advanced Data Visualization Overview\nIn this module, I was introduced to advanced topicsof the grammar of graphics and ggplot2 extensions such as patchwork and gganimate.  You I also observed how data scientists use ggplot2 to customize charts for better communication, including live screencast demonstrations of clever and creative data visualizations.\nCheck out module 04 project to see this work!"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Hi, I’m Amir Alnajjar",
     "section": "About Me",
-    "text": "About Me\nI am a motivated university student currently pursuing a Bachelor’s degree at California State Polytechnic University,Pomona (Cal Poly Pomona), I am passionate about learning, personal growth, and developing professional skills that prepare me for future career opportunities! I bring strong communication abilities, multilingual skills and commitment ; I’m currently working on expanding my knowledge, and contributing effectively in collaborative environments while preparing for a successful career after graduation"
+    "text": "About Me\n\nI am a motivated university student currently pursuing a Bachelor’s degree at California State Polytechnic University, Pomona. My academic and professional focus centers on data analytics, digital marketing strategy, and business intelligence. Through coursework and applied projects, I combine analytical thinking with technical tools to solve real-world business challenges and generate meaningful insights.\n\n\n\nMy work emphasizes data-driven decision making, visualization, and performance analysis. I have developed skills using platforms such as Google Analytics 4, Tableau, SAP ERP systems, R programming, Excel analytics, and Quarto web development. I enjoy transforming raw data into actionable insights that support strategic decision-making.\n\nAs a multilingual communicator fluent in English, Arabic, and Spanish, I thrive in collaborative environments where analytical problem-solving and teamwork drive innovation. My goal is to continue developing technical and leadership skills while preparing for a career in analytics, marketing intelligence, or business strategy."
   },
   {
     "objectID": "index.html#professional-objective",
     "href": "index.html#professional-objective",
     "title": "Hi, I’m Amir Alnajjar",
     "section": "Professional Objective",
-    "text": "Professional Objective\nTo continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success.\nCheck out my Data analytics Portfolio to see some of my recent work!"
+    "text": "Professional Objective\n\nTo continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "Education",
+    "text": "Education\n\nM.S. Digital Marketing, California State Polytechnic University, Pomona (Expected 2025)\nB.S. Apparel Merchandising and Management, California State Polytechnic University, Pomona (2022)"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "Skills",
+    "text": "Skills\n\nData Analytics & Visualization (Tableau, Excel PivotTables, R Programming, ggplot2)\nGoogle Analytics 4 (Engagement analysis, acquisition channel evaluation, insight reporting)\nData Science Workflows (Quarto websites, reproducible analytics, tidyverse data wrangling)\nMarketing Analytics & Performance Analysis (User engagement interpretation, reporting dashboards)\nSAP ERP Systems (Production Planning, Financial Accounting, Accounts Payable workflows)\nBusiness Intelligence & Dashboard Development (Data storytelling, visualization design)\nDigital Marketing Strategy (Data-driven decision making, marketing performance analysis)\nStrategic Problem Solving & Business Analysis\nMultilingual Communication (English, Arabic, Spanish)"
+  },
+  {
+    "objectID": "index.html#languages",
+    "href": "index.html#languages",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "Languages",
+    "text": "Languages\n\nEnglish (Fluent)\nArabic (Fluent)\nSpanish (Fluent)"
+  },
+  {
+    "objectID": "index.html#certifications",
+    "href": "index.html#certifications",
+    "title": "Hi, I’m Amir Alnajjar",
+    "section": "Certifications",
+    "text": "Certifications\n\nGoogle Analytics (GA4)\nTableau Essential Training\nExcel PivotTables in Depth\nSAP S/4HANA (Production Planning & Financial Accounting Projects)\n\nCheck out my Data analytics Portfolio to see some of my recent work!"
   }
 ]

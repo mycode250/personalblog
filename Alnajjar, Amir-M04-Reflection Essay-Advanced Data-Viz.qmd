@@ -1,0 +1,103 @@
+---
+title: "M04-Reflection Essay-Advanced Data Visualization"
+author: "Amir Alnajjar"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Summarize what you learned from the presentation by **Thomas Lin Pedersen** on "ggplot2 workshop: Part 2 in Step 1
+
+homas Lin Pedersen demonstrated that the grammar of graphics is not limited to static charts. By maintaining the core structure of **data**, **aesthetics**, **geoms**, and **scales**, we can build powerful extensions.
+
+Two extensions stood out to me:
+
+1.  **`{patchwork}`**: Allows you to combine multiple plots into a single layout, making it easier to tell a cohesive story.
+
+2.  **`{gganimate}`**: Introduces time as a dimension, turning static data into a dynamic narrative.
+
+```{r}
+
+# patchwork examples
+
+library(ggplot2)
+library(patchwork)
+
+# Create two simple plots
+p1 <- ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Scatter Plot")
+
+p2 <- ggplot(mtcars, aes(x = factor(cyl))) +
+  geom_bar(fill = "steelblue") +
+  labs(title = "Bar Plot", x = "Cylinders")
+
+# Combine them side-by-side
+p1 + p2
+```
+
+# In Step 2, a short video on "**ggplot2 Scales and Transformations - Data Communication / Data Visualization \| Video (13:36)**" was introduced. (1) Summarize it and (2) discuss how it fits with the grammar of graphics you learned in Step 1.
+
+Scales act as the interpreter between your raw data and the visual elements on the plot. The video reinforced that scales control the mapping of data values to visual channels like position, color, and size.
+
+**Takeaways:**
+
+-   Modifying **axis breaks**, **limits**, and **labels** enhances clarity.
+
+-   **Transformations** are crucial for visualizing skewed data.
+
+| Scales are the mechanism that refines the mapping defined in the aesthetic layer. While Step 1 taught us *what* to map, Step 2 taught us *how* to control the perception of that map.
+
+# In Step 3, ***David Robinson's video*** demonstrates impromptu data visualization. List three new functions that were not taught previously but were deemed helpful for you in the future. Briefly explain what you can do with each of the functions
+
+David Robinson’s exploratory analysis introduced me to three highly practical functions that improve readability and speed.
+
+| Function | Purpose |
+|:---|:---|
+| ***`fct_reorder()`*** | Reorders factor levels by a numeric value to make bar charts cleaner. |
+| ***`geom_smooth()`*** | Adds a trend line (e.g., linear model or LOESS) to a scatter plot. |
+| ***`coord_flip()`*** | Swaps the x and y axes, perfect for horizontal bar charts with long labels. |
+
+# What did you like about the ***gt*** and ***gtExtra*** packages demonstrated in Step 4? How do they complement data visualization using charts that we have spent so much time on so far? Under what circumstances would you prefer to use tables over charts in visualization data?
+
+While charts are excellent for spotting trends, tables are irreplaceable when precision is paramount. The ***`{gt}`*** package provides incredible control over table formatting, from font styling to grouping rows. The ***`{gtExtras}`*** package enhances this by embedding visualizations like sparklines directly into cells.
+
+Scenarios where a table is better than chart;
+
+-   Displaying exact regression outputs or financial summaries.
+
+-   Situations where the user needs to look up specific values rather than compare shapes.
+
+-   When space is limited and precise numbers are the primary message
+
+# Pick three tips and tricks you learned from Data Visualization guru ***Cédric Schere*** in Step 5 and explain why you liked them. 
+
+Cédric Scherer emphasized that statistical accuracy must be paired with thoughtful design. His tips are about removing obstacles between the data and the viewer.
+
+1.  *Use Thoughtful Color Schemes: Avoid default palettes. Use deliberate, limited colors to guide the viewer's eye.*
+
+2.  *Direct Labeling: Place labels next to lines instead of relying on a separate legend. This reduces the cognitive load on the reader.*
+
+3.  *Embrace Minimalism: Remove unnecessary gridlines, backgrounds, and borders to let the data stand out.*
+
+# In Step 6, you will find my advanced visualization notebook. Run the codes one by one and digest as much as you can. What are you most impressed with about the visualization approach or tools demonstrated in the codebook? 
+
+The integration of multiple variables in single plots was the best feature that I liked in the advanced visualization notebook. The interactive bubble charts were used to show the possibility of displaying four or five variables at the same time without confusion. The animation also section was very strong in my view since it turned the stagnant images into moving stories as time progressed. The examples of the geospatial mapping demonstrated the effectiveness of overlaying the data onto the world and regional maps. The most impressive part to me was that each extra line of code was added to the chart and it was improved. This supported the stratified method of grammar instruction and proved the skills of higher order narrative.
+
+# What seems to be the challenge, if any, for you when you try to master data visualization skills? How may you be able to overcome the challenge?
+
+My main challenge is balancing **complexity** with **clarity**. It is easy to add layers and extensions, but difficult to ensure the final product is accessible to the audience. Additionally, memorizing the vast number of `ggplot2` arguments and extension functions is daunting. To overcome these I will adopt the following strategies;
+
+1.  *Regular Practice: Recreate one published chart per week, trying to modify its style.*
+
+2.  *Build a Code Snippet Library: Save useful code patterns*
+
+3.  *Iterative Design: Follow the examples of Pedersen, Robinson, and Scherer by starting simple and adding complexity only when it serves the story.*

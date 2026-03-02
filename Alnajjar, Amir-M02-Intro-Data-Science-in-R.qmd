@@ -1,0 +1,86 @@
+---
+title: "M02-Introduction to Data Science in R-Reflection"
+author: "Amir Alnajjar"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Summarize new things you learned in this module about reproducible data science and literate coding
+
+> *Reproducible data science and literate coding showed me a promising path of integrating analysis, documentation, and transparency into a workflow unified. Literate programming enables researcher to intermix narrative ideas with code and outputs instead of decoupling both concepts. This minimizes the errors as the result automatically updates with any change in data or analysis. I was taught that old systems of work of copying of results by hand in programs lead to inconsistencies and undermine credibility. The reproducibility concept helps to ascertain that other individuals are able to replicate the findings under the same protocols. This method increases the validity of research and cooperation. The knowledge of reproducibility also assists in keeping track of well organized work that could be revisited in future without any misunderstanding and loss of analytical order.*
+
+# Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or study, like taking notes in your class or preparing a presentation? More eye-catching effects will be introduced in later modules.
+
+> *The Quarto lecture by the instructor was excellent in that it demonstrated how writing, coding, and publishing can be achieved within a single space. Quarto also enables users to create various types of products including an HTML, PDF, presentation, and web based product out of one document. I have also discovered that Quarto has no limitations with operating other tools such as RStudio, Jupyter, and VS Code, thus it can be used on various workflows. Some of the aspects highlighted in the lecture were visual editing, the possibilities of formatting, and the ability to combine several programming languages into a single file. I will be able to visualize myself using Quarto every day to take crisp notes on classes or compiling reports. Professional outputs made automatically would enhance efficiency and organization and save repetitive formatting.*
+
+# Summarize the video presentation about reproducibility crisis. What do you think about reproducible crisis in your field? How can Quarto help address the concerns you have about reproducibility in the line of your work?
+
+> *The video presentation summarized the reproducibility crisis as the case where researchers fail to replicate the published results, with the use of the same data and methods. Several problems are created at the time when steps of analysis are manually done or not well documented. As a case in point, cross-copying the statistics in the software programs will raise the chances of errors and the lack of transparency. I believe that this crisis applies to areas such as data analysis since ambiguous work flow diminishes the confidence in results. In my work or studies, reproducibility guarantees accuracy and responsibility. Quarto is able to solve these issues by connecting code, analysis, and written explanations into one reproducible document. This helps in the stability in the results and makes it simple to review even decades later.*
+
+# Summarize what you learned in this module about the Tidyverse ecosystem in R. What can you do with R?
+
+> *The module made me know that the Tidyverse ecosystem is a group of integrated R packages which are used to wrangle, analyze, and visualize data. Tidyverse eases the coding process through its uniform syntax that is simple to learn as compared to base R. I got to know that R is not only able to execute numerous statistical operations, but can also be used to build machine learning models, create dashboards, generate documents, and even to create interactive visualizations. The packages such as ggplot2 allow more complex chart construction, whereas other packages are utilized to encourage effective data handling. The Tidyverse style of doing things enhances the clarity of the working process since each process is logically structured. In general, R turns out to be a potent platform where a set of analysis, visualization, and reporting can take place.*
+>
+> *Below is a brief summary of the descriptions of the core packages;*
+>
+> | Package | Description |
+> |-------------------------------------------------|-----------------------|
+> | ggplot2 | Creates elegant graphics using a layered grammar of graphics. |
+> | dplyr | Provides a consistent set of verbs for data manipulation (e.g., `filter()`, `select()`, `mutate()`) |
+> | tidyr | Helps tidy data by reshaping, separating, and nesting columns. |
+> | readr | Offers fast and friendly functions to read rectangular data (CSV, TSV, etc.). |
+> | purrr | Enhances R’s functional programming toolkit for working with lists and vectors. |
+> | tibble | A modern reimagining of data frames, with better printing and subsetting. |
+> | Stringr | Simplifies common string operations with a consistent, easy-to-remember interface. |
+> | Forcats | Provides tools for working with categorical variables (factors). |
+>
+> : Tidyverse core packages
+>
+> Please see below an example of the tidyverse package in action;
+
+```{r}
+# Load the tidyverse
+library(tidyverse)
+
+# Take a peek at the starwars data
+glimpse(starwars)
+
+# 1. Filter characters that are human and not missing height
+# 2. Select name, height, mass, and homeworld
+# 3. Create a new column: BMI (body mass index) using kg/m²
+# 4. Arrange by BMI descending
+# 5. Show top 10
+starwars %>%
+  filter(species == "Human", !is.na(height), !is.na(mass)) %>%
+  select(name, height, mass, homeworld) %>%
+  mutate(
+    height_m = height / 100,          # convert cm to m
+    bmi = mass / (height_m^2)          # calculate BMI
+  ) %>%
+  arrange(desc(bmi)) %>%
+  slice_head(n = 10) %>%
+  print()
+```
+
+# Refer to the video introducing two 20 packages. Among the various packages introduced, choose two packages beyond the Tidyverse ecosystem, base R, and Quarto that could enhance your job/career. Tell me why you think so.
+
+> *Two packages outside the Tidyverse ecosystem that may contribute to my career are [Shiny](https://shiny.posit.co/) and [reticulate](https://posit.co/blog/reticulate-1-41/).*
+>
+> *Shiny will enable users to develop interactive user interfaces and dashboards in R, which can be helpful to display the insights of data to nontechnical users. This should be able to enhance the delivery of analytics findings in professional environments.*
+>
+> *The reticulate allows the combination of R and Python in a single workflow to allow the analyst to leverage the benefits of both programming languages. I think these tools raise flexibility and open up more career opportunities since a contemporary data science requires interdisciplinary skills. The use of learning packages that embrace automation, interactivity and cross-language workflows can assist in enhancing productivity and collaboration in the real world projects.*
+>
+> The code bel
+
+# Refer to the debate on R vs. Python. What is your take on this debate? 
+
+> *Personally, I believe that the discussion on Python and R is not a contest but a complement because of the applications of each language. R is better at statistical analysis and visualization whereas Python can perform well in general programming and machine learning development. In the modern workflows, interoperability is eminent in the sense that different languages are regularly used by the analysts, depending on the task. Learning the ability to combine both languages is more flexible and career ready in lieu of selecting either one. In my opinion, the tools that facilitate cross-language environment allow data scientists to choose an option that works best in any given problem. Thus, studying both eco systems may result in improved efficiency and flexibility of data-driven working and problem solving.*

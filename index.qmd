@@ -6,10 +6,60 @@ title: "Hi, I'm Amir Alnajjar"
 
 ## *About Me*
 
-*I am a motivated university student currently pursuing a Bachelor's degree at California State Polytechnic University,Pomona (Cal Poly Pomona), I am passionate about learning, personal growth, and developing professional skills that prepare me for future career opportunities! I bring strong communication abilities, multilingual skills and commitment ; I'm currently working on expanding my knowledge, and contributing effectively in collaborative environments while preparing for a successful career after graduation*
+> I am a motivated university student currently pursuing a Bachelor’s degree at California State Polytechnic University, Pomona. My academic and professional focus centers on data analytics, digital marketing strategy, and business intelligence. Through coursework and applied projects, I combine analytical thinking with technical tools to solve real-world business challenges and generate meaningful insights.\
+
+> My work emphasizes data-driven decision making, visualization, and performance analysis. I have developed skills using platforms such as Google Analytics 4, Tableau, SAP ERP systems, R programming, Excel analytics, and Quarto web development. I enjoy transforming raw data into actionable insights that support strategic decision-making.\
+>
+> As a multilingual communicator fluent in English, Arabic, and Spanish, I thrive in collaborative environments where analytical problem-solving and teamwork drive innovation. My goal is to continue developing technical and leadership skills while preparing for a career in analytics, marketing intelligence, or business strategy.
 
 ## *Professional Objective*
 
-To continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success.
+> To continue developing academically and professionally while gaining real-world experience that strengthens my skills and prepares me for long-term career success.
+
+## Education
+
+-   M.S. Digital Marketing, California State Polytechnic University, Pomona (Expected 2025)
+
+-   B.S. Apparel Merchandising and Management, California State Polytechnic University, Pomona (2022)
+
+------------------------------------------------------------------------
+
+## Skills
+
+-   Data Analytics & Visualization (Tableau, Excel PivotTables, R Programming, ggplot2)
+
+-   Google Analytics 4 (Engagement analysis, acquisition channel evaluation, insight reporting)
+
+-   Data Science Workflows (Quarto websites, reproducible analytics, tidyverse data wrangling)
+
+-   Marketing Analytics & Performance Analysis (User engagement interpretation, reporting dashboards)
+
+-   SAP ERP Systems (Production Planning, Financial Accounting, Accounts Payable workflows)
+
+-   Business Intelligence & Dashboard Development (Data storytelling, visualization design)
+
+-   Digital Marketing Strategy (Data-driven decision making, marketing performance analysis)
+
+-   Strategic Problem Solving & Business Analysis
+
+-   Multilingual Communication (English, Arabic, Spanish)
+
+## Languages
+
+-   English (Fluent)
+
+-   Arabic (Fluent)
+
+-   Spanish (Fluent)
+
+## Certifications
+
+1.  Google Analytics (GA4)
+
+2.  Tableau Essential Training
+
+3.  Excel PivotTables in Depth
+
+4.  SAP S/4HANA (Production Planning & Financial Accounting Projects)
 
 *Check out my [**Data analytics Portfolio**](analytics.qmd) to see some of my recent work!*

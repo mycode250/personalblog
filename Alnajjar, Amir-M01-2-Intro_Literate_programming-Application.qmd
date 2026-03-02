@@ -1,0 +1,177 @@
+---
+title: "M01-2-Introduction to Literate Programming-Application Assignment"
+author: "Amir Alnajjar"
+date: '`r format(Sys.time())`'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-line-numbers: true
+    code-fold: false
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+  warning: false
+---
+
+# Ex 1.
+
+> *Create a variable called X and assign the text "This is my first assignment" to it.* 
+
+```{r}
+X <- "This is my first assignment" #creates a variable and assigns a string
+
+X
+```
+
+# Ex 2.
+
+## Part 1
+
+> *Look up paste() function from help to learn how to use it. In the help document, you will find some use cases as examples toward the bottom of the page. Copy some of them and paste them into your codebook inside a code chunk right below this instruction. Execute one line at a time and learn how they work.*
+
+```{r}
+
+paste0(1:12)
+paste(1:12) 
+(nth <- paste0(1:12, c("st", "nd", "rd", rep("th", 9))))
+
+paste0(nth, collapse = ", ") #To collapse the output into a single string, pass a collapse argument.
+paste("1st", "2nd", "3rd", sep = ", ") #For inputs of length 1, use the sep argument rather than collapse
+```
+
+## Part 2
+
+> *Using \`paste()\` function, add "and I'm loving it!" to \`X\`, the variable that you just created.*
+
+```{r}
+paste(X, "and I'm loving it!") #adding a new string to a string variable
+```
+
+# Ex 3.
+
+> *Create a vector called Y with the numbers 2, 3, 4, and 5. Next, multiply the vector by 2 and save it as Y again.*
+
+```{r}
+Y <- c(2, 3, 4, 5) #Creating vector Y
+
+Y <- Y*2 #multiplying vector Y by 2
+```
+
+# Ex 4.
+
+> *Print both the variable (X) and the vector (Y).*
+
+```{r}
+print(X)
+print(Y)
+```
+
+# Ex 5.
+
+> *Show the maximum and the minimum value of the vector Y that you created.*
+
+```{r}
+max(Y)
+min(Y)
+```
+
+# Ex 6.
+
+> *Load up the ggplot2 package and take a look at the first six rows of the data called, "economics," which is available with the package.*
+
+```{r}
+library(ggplot2)
+head(economics)
+```
+
+# Ex 7.
+
+> *Use the data set "economics," which is from ggplot2 package. First understand the data by referring to help document. Since there are only six variables, provide the definition of the variables nicely in bullets to aid readers who will not have access to the help document. Pick two variables that you think are somehow related. Then draw a chart using ggplot2 package. Assign "plot" to the basic layers of data, aesthetics, and geometry, which are the minimum elements to generate a chart according to the grammar of graphics. Further, using the function \`labs()\`, add the title and labels for the x-axis and y-axis.*
+
+::: callout-note
+***Economics Description***
+
+*The data frame has 6 variables as follows:*
+
+1.  *date - Month of data collection*
+
+2.  *pce - Personal consumption expenditures, in billions of dollars*
+
+3.  *pop - Total population, in thousands*
+
+4.  *psavert - Personal savings rate*
+
+5.  *uempmed - Median duration of unemployment, in weeks*
+
+6.  *unemploy - Number of unemployed in thousands*
+:::
+
+```{r}
+library(ggplot2)
+plot <- ggplot(economics, aes(date,uempmed))+
+  geom_point(colour = "red")
+plot +
+   labs(title= "Unemployment duration by Date",
+       x = "Date (Months)",
+       y = "Unemployment duration (Weeks)") 
+```
+
+# Ex 8.
+
+> *This time, replicate the chart above using a pipe operator and without saving the initial plot as a plot object. In other words, use one long chain of code from the data at the top of the lines to the last addition to the chart. Now, add a label and caption to the figure so that the figure to be created can be cross-referenced. Also, make the width of the figure 5 with an aspect ratio of 0.6.* Once you replicate the chart, you can use \`#\| \` inside the code chunk to control the label, caption, and size of the figure.
+
+```{r}
+#| label: fig-plot
+#| fig-cap: "A Scatter plot of Unemployment Duration against Month Date"
+#| fig-width: 5
+
+ggplot(economics, aes(date,uempmed))+
+  geom_point(colour = "red")+
+   labs(title= "Unemployment duration by Date",
+       x = "Date (Months)",
+       y = "Unemployment duration (Weeks)")  +
+  theme(aspect.ratio = 0.6)
+  
+```
+
+# Ex 9.
+
+> *Using one of the callout blocks, describe your findings. In doing so, use cross-referencing to refer to the figure you created earlier.* 
+
+::: callout-note
+@fig-plot clearly shows that at this time in the US, duration one stayed unemployed increases as the months go by.
+:::
+
+# Ex 10.
+
+> *Make sure your codebook is well organized, easy to navigate, and beautiful. Implement as many tools as you learned in Step 1 to make your report reproducible and effective throughout the report. Then, explicitly state under this question what you did. You don't need to mention multiple actions for the same function. Summarize the different functions you implemented using a numbered list.*
+>
+> *You must use at least 10 different kinds of tools listed below*
+
+::: callout-important
+*Summary of functions used*
+
+1.  *Section numbering with "\\#", "\\##", and "\\###" . Used in Ex 1 to Ex 10 headings*
+
+2.  *Bold font. Ex 7 call-out heading*
+
+3.  *Italicized font. All call-outs have all been italicized.*
+
+4.  *\`callout-tip\` for all hints. Hints are in call-out tips.*
+
+5.  *\`callout-note\` when appropriate. Ex 9. reference is the call out note.*
+
+6.  *\`callout-important\` when appropriate. This summary has used the call-out important tool*
+
+7.  *\`blockquote\` for every task consistently. All task requirements use the blockquote tool.*
+
+8.  *Tick ("\\\`") before and after a function to set it apart from regular texts. The code chunks have all used the backticks*
+
+9.  *Cross-reference the line figure. This has been done in Ex 9.*
+
+10. *Optional argument (\`#\|\`) Ex 8 code chunk has used the control code.*
+:::

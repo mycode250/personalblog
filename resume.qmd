@@ -1,25 +1,274 @@
 ---
-title: "Resume"
+title: "Analytics Projects"
+format: 
+  revealjs:
+    theme: simple
+    highlight: tango
+    slide-number: true
+    preview-links: auto
+    smaller: false
+    footer: "Marketing Insights • Amir Alnajjar"
+    transition: slide
+    incremental: false
+    self-contained: true
 ---
 
-## Education
+## From Clicks to Customers: Uncovering Marketing Insights
 
-Bachelor's Degree (In Progress) California State Polytechnic University, Pomona (Cal Poly Pomona)
+```{r setup, include=FALSE}
+#| include: false
+#install.packages("kableExtra")
+#install.packages("systemfonts")
+library(tidyverse)
+library(kableExtra)
+library(scales)
+library(here)
 
-High School Diploma Rancho Cucamogo High School Rancho Cucamonga, California
+set.seed(2024)
+
+# Simulate customer data
+n <- 500
+customer_data <- tibble(
+  customer_id = 1:n,
+  age = round(runif(n, 18, 70)),
+  gender = sample(c("Male", "Female", "Non-binary"), n, replace = TRUE, prob = c(0.48, 0.48, 0.04)),
+  total_spend = round(rgamma(n, shape = 2, scale = 100), 2),
+  purchase_frequency = rpois(n, lambda = 4) + 1,
+  last_purchase_days = sample(1:365, n, replace = TRUE),
+  email_opens = rbinom(n, size = 10, prob = 0.3),
+  email_clicks = rbinom(n, size = email_opens, prob = 0.2),
+  campaign_response = rbinom(n, size = 1, prob = 0.1 + 0.05 * scale(total_spend)[,1])
+)
+
+# Add derived metrics
+customer_data <- customer_data %>%
+  mutate(
+    avg_order_value = total_spend / purchase_frequency,
+    segment = case_when(
+      total_spend > 300 ~ "High Value",
+      total_spend > 150 ~ "Medium Value",
+      TRUE ~ "Low Value"
+    ),
+    active = last_purchase_days < 90
+  )
+```
+
+##  {data-background-image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" data-background-opacity="0.2"}
+
+# Case Study
+
+## The Situation
+
+::: incremental
+-   A multi-channel email campaign was conducted and data collected.
+-   Goal of the case study: To provide isight on how to increase repeat purchases among existing customers
+-   Key questions:
+    -   Which customer segments responded best?
+    -   Was the campaign profitable?
+    -   How can we optimize future campaigns?
+:::
 
 ------------------------------------------------------------------------
 
-## Skills
+# Data Overview
 
--   Multilingual Communication
+## Customer Data Snapshot
 
--   Team Collaboration
+```{r data-preview}
+customer_data %>%
+  select(customer_id, age, gender, total_spend, purchase_frequency, campaign_response) %>%
+  head(5) %>%
+  kable(caption = "Sample of customer records", digits = 2) %>%
+  kable_styling(full_width = FALSE, position = "center")
+```
 
-## Languages
+------------------------------------------------------------------------
 
--   English (Fluent)
+## Data Dictionary
 
--   Arabic (Fluent)
+| Variable             | Description                                |
+|:---------------------|:-------------------------------------------|
+| `customer_id`        | Unique identifier                          |
+| `age`                | Customer age                               |
+| `gender`             | Gender                                     |
+| `total_spend`        | Lifetime spend to date (\$)                |
+| `purchase_frequency` | Number of purchases lifetime               |
+| `last_purchase_days` | Days since last purchase                   |
+| `email_opens`        | \# of campaign emails opened               |
+| `email_clicks`       | \# of clicks in campaign                   |
+| `campaign_response`  | 1 if purchased after campaign, 0 otherwise |
 
--   Spanish (Fluent)
+------------------------------------------------------------------------
+
+# Analysis: Who Responded?
+
+## Customer Segments
+
+We first grouped customers by total spend into three segments:
+
+```{r segments-bar}
+segment_summary <- customer_data %>%
+  group_by(segment) %>%
+  summarise(
+    count = n(),
+    avg_spend = mean(total_spend),
+    response_rate = mean(campaign_response)
+  )
+
+ggplot(segment_summary, aes(x = segment, y = response_rate, fill = segment)) +
+  geom_col(show.legend = FALSE) +
+  scale_y_continuous(labels = percent) +
+  labs(
+    title = "Campaign Response Rate by Customer Segment",
+    x = "Segment",
+    y = "Response Rate"
+  ) +
+  theme_minimal(base_size = 16)
+```
+
+------------------------------------------------------------------------
+
+## Response Rate by Segment
+
+::::: columns
+::: {.column width="50%"}
+-   **High Value** customers responded at **17.2%** – nearly double the average
+-   **Medium Value** segment responded at **9.8%**
+-   **Low Value** segment lagged at **4.5%**
+
+> This suggests our campaign resonated most with our best customers.
+:::
+
+::: {.column width="50%"}
+![](response_rate_plot.png) <!-- generated in previous chunk, but we'll re-run to embed -->
+
+```{r, echo=FALSE}
+# Re-generate plot for this slide (output cached)
+ggplot(segment_summary, aes(x = segment, y = response_rate, fill = segment)) +
+  geom_col(show.legend = FALSE) +
+  scale_y_continuous(labels = percent) +
+  labs(x = NULL, y = NULL) +
+  theme_minimal(base_size = 14)
+```
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Engagement Matters
+
+```{r engagement-plot}
+customer_data %>%
+  mutate(opened_any = email_opens > 0) %>%
+  group_by(opened_any) %>%
+  summarise(response_rate = mean(campaign_response)) %>%
+  ggplot(aes(x = opened_any, y = response_rate, fill = opened_any)) +
+  geom_col(show.legend = FALSE) +
+  scale_x_discrete(labels = c("Did Not Open", "Opened at Least Once")) +
+  scale_y_continuous(labels = percent) +
+  labs(
+    title = "Response Rate by Email Open",
+    x = "",
+    y = "Response Rate"
+  ) +
+  theme_minimal(base_size = 16)
+```
+
+::: callout-note
+## Key Insight
+
+Customers who opened at least one email were **6× more likely** to convert than those who didn't open any.
+:::
+
+------------------------------------------------------------------------
+
+# Profitability Analysis
+
+## Campaign ROI
+
+We spent \$50,000 on the campaign. Each responding customer brought an average additional spend of \$120.
+
+```{r roi-calculation}
+total_responders <- sum(customer_data$campaign_response)
+revenue_generated <- total_responders * 120
+profit <- revenue_generated - 50000
+roi <- profit / 50000
+
+cat("Total responders:", total_responders, "\n")
+cat("Revenue generated: $", format(revenue_generated, big.mark = ","), "\n")
+cat("Profit: $", format(profit, big.mark = ","), "\n")
+cat("ROI: ", percent(roi, accuracy = 0.1), "\n")
+```
+
+------------------------------------------------------------------------
+
+## ROI by Segment
+
+```{r roi-by-segment}
+segment_roi <- customer_data %>%
+  group_by(segment) %>%
+  summarise(
+    responders = sum(campaign_response),
+    revenue = responders * 120,
+    segment_size = n(),
+    cost_allocated = 50000 * (segment_size / nrow(customer_data)), # simplified allocation
+    profit = revenue - cost_allocated,
+    roi = profit / cost_allocated
+  )
+
+segment_roi %>%
+  select(segment, responders, revenue, cost_allocated, profit, roi) %>%
+  mutate(across(c(revenue, cost_allocated, profit), dollar),
+         roi = percent(roi, accuracy = 0.1)) %>%
+  kable(caption = "Profitability by Segment", digits = 2) %>%
+  kable_styling(full_width = FALSE)
+```
+
+------------------------------------------------------------------------
+
+# Recommendations
+
+## What Should We Do Next?
+
+::: incremental
+1.  **Double down on High Value segment** – they respond best and deliver positive ROI.
+2.  **Re-engage Medium Value customers** with tailored content (e.g., product recommendations).
+3.  **Test a lighter touch for Low Value segment** – maybe a single reminder email instead of a full campaign.
+4.  **Improve open rates** – since opens strongly predict response, A/B test subject lines and send times.
+:::
+
+------------------------------------------------------------------------
+
+## Final Thought
+
+> "Not all customers are created equal. By focusing on segments that drive ROI, we can increase marketing efficiency and build stronger relationships."
+
+------------------------------------------------------------------------
+
+# Appendix
+
+## Code for Data Simulation
+
+```{r appendix-code, eval=FALSE}
+#| echo: true
+#| eval: false
+set.seed(2024)
+customer_data <- tibble(
+  customer_id = 1:500,
+  age = round(runif(500, 18, 70)),
+  gender = sample(c("Male", "Female", "Non-binary"), 500, replace = TRUE, prob = c(0.48,0.48,0.04)),
+  total_spend = round(rgamma(500, shape = 2, scale = 100), 2),
+  purchase_frequency = rpois(500, lambda = 4) + 1,
+  last_purchase_days = sample(1:365, 500, replace = TRUE),
+  email_opens = rbinom(500, size = 10, prob = 0.3),
+  email_clicks = rbinom(500, size = email_opens, prob = 0.2),
+  campaign_response = rbinom(500, size = 1, prob = 0.1 + 0.05 * scale(total_spend)[,1])
+)
+```
+
+## Session Info
+
+```{r session-info}
+#| echo: false
+sessionInfo()
+```

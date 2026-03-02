@@ -11,12 +11,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: analytics.qmd
-        text: Marketing Analytics
       - href: resume.qmd
-        text: Resume
+        text: Dashboard
       - href: Coursework.qmd
         text: Coursework
+      - href: analytics.qmd
+        text: Portfolio
     right:
       - icon: github
         href: https://github.com/amir-alnajjar

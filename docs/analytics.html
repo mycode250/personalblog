@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Analytics Portfolio – Amir Alnajjar</title>
+<title>Past Class Projects – Amir Alnajjar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -130,16 +95,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./analytics.html" aria-current="page"> 
-<span class="menu-text">Marketing Analytics</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./resume.html"> 
-<span class="menu-text">Resume</span></a>
+<span class="menu-text">Dashboard</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Coursework.html"> 
 <span class="menu-text">Coursework</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./analytics.html" aria-current="page"> 
+<span class="menu-text">Portfolio</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -169,7 +134,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#case-study-1-sales-forecasting-with-time-series" id="toc-case-study-1-sales-forecasting-with-time-series" class="nav-link active" data-scroll-target="#case-study-1-sales-forecasting-with-time-series">Case Study 1: Sales Forecasting with Time Series</a></li>
+  <li><a href="#module-01-2-application" id="toc-module-01-2-application" class="nav-link active" data-scroll-target="#module-01-2-application">Module 01-2 Application</a>
+  <ul class="collapse">
+  <li><a href="#introduction-to-literate-programming" id="toc-introduction-to-literate-programming" class="nav-link" data-scroll-target="#introduction-to-literate-programming">Introduction to Literate Programming</a></li>
+  </ul></li>
+  <li><a href="#module-02-reflection-project" id="toc-module-02-reflection-project" class="nav-link" data-scroll-target="#module-02-reflection-project">Module 02 Reflection Project</a>
+  <ul class="collapse">
+  <li><a href="#in-depth-literate-programming-data-science-and-rs-capabilities" id="toc-in-depth-literate-programming-data-science-and-rs-capabilities" class="nav-link" data-scroll-target="#in-depth-literate-programming-data-science-and-rs-capabilities">In-depth Literate Programming, Data Science and R’s Capabilities</a></li>
+  </ul></li>
+  <li><a href="#module-03-2-application-project" id="toc-module-03-2-application-project" class="nav-link" data-scroll-target="#module-03-2-application-project">Module 03-2 Application Project</a>
+  <ul class="collapse">
+  <li><a href="#data-visualization-with-ggplot2" id="toc-data-visualization-with-ggplot2" class="nav-link" data-scroll-target="#data-visualization-with-ggplot2">Data Visualization with ggplot2</a></li>
+  </ul></li>
+  <li><a href="#module-04-reflection-project" id="toc-module-04-reflection-project" class="nav-link" data-scroll-target="#module-04-reflection-project">Module 04 Reflection Project</a>
+  <ul class="collapse">
+  <li><a href="#advanced-data-visualization-overview" id="toc-advanced-data-visualization-overview" class="nav-link" data-scroll-target="#advanced-data-visualization-overview">Advanced Data Visualization Overview</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +158,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Analytics Portfolio</h1>
+<h1 class="title">Past Class Projects</h1>
 </div>
 
 
@@ -195,57 +175,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Here are a few case studies showcasing my work with R and Python. Each project includes visualizations and key metrics.</p>
-<section id="case-study-1-sales-forecasting-with-time-series" class="level2">
-<h2 class="anchored" data-anchor-id="case-study-1-sales-forecasting-with-time-series">Case Study 1: Sales Forecasting with Time Series</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'dplyr'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:stats':
-
-    filter, lag</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>The following objects are masked from 'package:base':
-
-    intersect, setdiff, setequal, union</code></pre>
-</div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: "Actual vs. forecasted sales"</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dates <span class="ot">&lt;-</span> <span class="fu">seq.Date</span>(<span class="fu">as.Date</span>(<span class="st">"2023-01-01"</span>), <span class="fu">as.Date</span>(<span class="st">"2024-12-31"</span>), <span class="at">by =</span> <span class="st">"week"</span>)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>sales <span class="ot">&lt;-</span> <span class="dv">100</span> <span class="sc">+</span> <span class="fu">cumsum</span>(<span class="fu">rnorm</span>(<span class="fu">length</span>(dates), <span class="dv">0</span>, <span class="dv">5</span>)) <span class="sc">+</span> <span class="fu">rnorm</span>(<span class="fu">length</span>(dates), <span class="dv">0</span>, <span class="dv">10</span>)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">date =</span> dates, <span class="at">sales =</span> sales)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Simple forecast (naive)</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>forecast <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">NA</span>, sales[<span class="sc">-</span><span class="fu">length</span>(sales)])</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df[<span class="dv">100</span><span class="sc">:</span><span class="dv">120</span>,], <span class="fu">aes</span>(<span class="at">x =</span> date)) <span class="sc">+</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> sales, <span class="at">color =</span> <span class="st">"Actual"</span>)) <span class="sc">+</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> forecast, <span class="at">color =</span> <span class="st">"Forecast (naive)"</span>), <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Sales Forecast (sample window)"</span>, <span class="at">y =</span> <span class="st">"Sales ($)"</span>, <span class="at">x =</span> <span class="st">"Date"</span>) <span class="sc">+</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"Actual"</span> <span class="ot">=</span> <span class="st">"black"</span>, <span class="st">"Forecast (naive)"</span> <span class="ot">=</span> <span class="st">"red"</span>)) <span class="sc">+</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 15 rows containing missing values or values outside the scale range
-(`geom_line()`).
-Removed 15 rows containing missing values or values outside the scale range
-(`geom_line()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="analytics_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+<p>Here are a few links to IBM 3202 class projects and assignments showcasing my work with in R</p>
+<section id="module-01-2-application" class="level1">
+<h1>Module 01-2 Application</h1>
+<section id="introduction-to-literate-programming" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-literate-programming">Introduction to Literate Programming</h2>
+<p>In this module, I learned how to make the best use of the&nbsp;<strong><em>Quarto&nbsp;Markdown</em></strong>&nbsp;within RStudio. In Quarto, you can run not only R codes but also&nbsp;<strong><em>Python codes</em></strong> or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.</p>
+<p><em>Check out <a href="./Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html">module 01 project</a> to see this work!</em></p>
+</section>
+</section>
+<section id="module-02-reflection-project" class="level1">
+<h1>Module 02 Reflection Project</h1>
+<section id="in-depth-literate-programming-data-science-and-rs-capabilities" class="level2">
+<h2 class="anchored" data-anchor-id="in-depth-literate-programming-data-science-and-rs-capabilities">In-depth Literate Programming, Data Science and R’s Capabilities</h2>
+<p>The goal of this module was to introduce the world of data science in R and get you ready for the rest of the modules. To do so, you will be watching many short video clips and be given an opportunity to reflect on what you learned and set your personal goal for this course. You should understand that this course is comprehensive to be able to accommodate both novices and experienced R users. You should set a realistic goal depending on your time availability.&nbsp; Your goal can be either (1) obtaining coding literacy, (2) becoming intermediate users, or (3) becoming advanced users. Regardless of your goal, you should all get appropriate grades to pass the course if you don’t give up. Stick with your plan and continue to allocate the time you commit to achieve your goal.</p>
+<p><em>Check out <a href="./Alnajjar, Amir-M02-Intro-Data-Science-in-R.html">module 02 project</a> to see this work!</em></p>
+</section>
+</section>
+<section id="module-03-2-application-project" class="level1">
+<h1>Module 03-2 Application Project</h1>
+<section id="data-visualization-with-ggplot2" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization-with-ggplot2">Data Visualization with ggplot2</h2>
+<p>The&nbsp;<strong>ggplot 2</strong>&nbsp;is a plotting package that provides a powerful array of functions to create any charts from data. It provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties. Therefore, we only need minimal changes if the underlying data changes or if we decide to change from one plot to another. This helps in creating publication-quality plots with minimal amounts of adjustments and tweaking. It is the ggplot2 package that makes R the king of data visualization tools and is included. It is no wonder ggplot2 is part of&nbsp;<strong><em>Tidyverse</em></strong></p>
+<p>In this module, you I was introduced to conceptsof&nbsp;<strong><em>the grammar of graphics</em></strong>&nbsp;when <strong>visualizing data with the ggplot2</strong>&nbsp;package.</p>
+<p><em>Check out <a href="./Alnajjar, Amir-M03-2-Data-Viz-Application.html">module 03 project</a> to see this work!</em></p>
+</section>
+</section>
+<section id="module-04-reflection-project" class="level1">
+<h1>Module 04 Reflection Project</h1>
+<section id="advanced-data-visualization-overview" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-data-visualization-overview">Advanced Data Visualization Overview</h2>
+<p>In this module, I was introduced to advanced topicsof&nbsp;<strong><em>the grammar of graphics</em></strong>&nbsp;and ggplot2 extensions such as patchwork and&nbsp;<strong>gganimate</strong>.&nbsp; You I also observed how data scientists use&nbsp;<strong>ggplot2</strong> to customize charts for better communication, including live screencast demonstrations of clever and creative data visualizations.</p>
+<p><em>Check out <a href="./Alnajjar, Amir-M04-Reflection Essay-Advanced Data-Viz.html">module 04 project</a> to see this work!</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

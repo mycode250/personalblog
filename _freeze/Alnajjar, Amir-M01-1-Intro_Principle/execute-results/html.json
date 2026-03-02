@@ -1,0 +1,21 @@
+{
+  "hash": "f55dd5365012ef93349cd3c01508f22e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Module 1 Introduction to Literate Programming with Quarto\"\nauthor: \"Amir Alnajjar\"\ndate: '2026-03-02 11:11:04'\nformat: \n  html: \n    toc: true\n    toc-depth: 4\n    number-sections: true\n    code-line-numbers: true\n    code-fold: false\n    code-link: true\n    embed-resources: true\n    df-print: paged\neditor: visual\nexecute: \n  freeze: auto\n  warning: false\n---\n\n## Hello!\n\n**This is bold**\n\n`This is code`\n\n*This is italics*\n\n## My name is\n\n### Alnajjar\n\n-   point 1\n\n-   point 2\n\n## Quarto\n\n1.  [website 1](youtube.com)\n\n2.  website 2\n\n![](https://visitslo.com/wp-content/uploads/2023/12/Cal-Poly-SLO.jpg)\n\n::: callout-tip\n## Hello\n:::\n\nblockquoting\n\n| Col1 | Col2 | Col3 | Col4 | Col5 |\n|------|------|------|------|------|\n| 5    | 6    | 55   | 6    | 54   |\n| 20   | 32   | 56   | 7    | 67   |\n| 8    | 54   | 22   | 90   | 55   |\n| 66   | 9    | 5    | 76   | 34   |\n\n: This is a table {#tbl-table1}\n\n@tbl-table1\n\n\n::: {.cell}\n\n````{.cell-code}\n```{{r}}\nplot(cars)\n```\n````\n\n::: {.cell-output-display}\n![](Alnajjar,-Amir-M01-1-Intro_Principle_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#install.packages(\"\")\nlibrary(palmerpenguins)\npenguins |>\n  head()\n```\n\n::: {.cell-output-display}\n`````{=html}\n<div data-pagedtable=\"false\">\n  <script data-pagedtable-source type=\"application/json\">\n{\"columns\":[{\"label\":[\"species\"],\"name\":[1],\"type\":[\"fct\"],\"align\":[\"left\"]},{\"label\":[\"island\"],\"name\":[2],\"type\":[\"fct\"],\"align\":[\"left\"]},{\"label\":[\"bill_length_mm\"],\"name\":[3],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"bill_depth_mm\"],\"name\":[4],\"type\":[\"dbl\"],\"align\":[\"right\"]},{\"label\":[\"flipper_length_mm\"],\"name\":[5],\"type\":[\"int\"],\"align\":[\"right\"]},{\"label\":[\"body_mass_g\"],\"name\":[6],\"type\":[\"int\"],\"align\":[\"right\"]},{\"label\":[\"sex\"],\"name\":[7],\"type\":[\"fct\"],\"align\":[\"left\"]},{\"label\":[\"year\"],\"name\":[8],\"type\":[\"int\"],\"align\":[\"right\"]}],\"data\":[{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"39.1\",\"4\":\"18.7\",\"5\":\"181\",\"6\":\"3750\",\"7\":\"male\",\"8\":\"2007\"},{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"39.5\",\"4\":\"17.4\",\"5\":\"186\",\"6\":\"3800\",\"7\":\"female\",\"8\":\"2007\"},{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"40.3\",\"4\":\"18.0\",\"5\":\"195\",\"6\":\"3250\",\"7\":\"female\",\"8\":\"2007\"},{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"NA\",\"4\":\"NA\",\"5\":\"NA\",\"6\":\"NA\",\"7\":\"NA\",\"8\":\"2007\"},{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"36.7\",\"4\":\"19.3\",\"5\":\"193\",\"6\":\"3450\",\"7\":\"female\",\"8\":\"2007\"},{\"1\":\"Adelie\",\"2\":\"Torgersen\",\"3\":\"39.3\",\"4\":\"20.6\",\"5\":\"190\",\"6\":\"3650\",\"7\":\"male\",\"8\":\"2007\"}],\"options\":{\"columns\":{\"min\":{},\"max\":[10]},\"rows\":{\"min\":[10],\"max\":[10]},\"pages\":{}}}\n  </script>\n</div>\n`````\n:::\n:::\n\n",
+    "supporting": [
+      "Alnajjar,-Amir-M01-1-Intro_Principle_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/pagedtable-1.1/css/pagedtable.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/pagedtable-1.1/js/pagedtable.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

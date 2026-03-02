@@ -1,7 +1,42 @@
 ---
 title: "CourseWork"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Here are some of the courses I have taken (or am taking) at Cal Poly Pomona:
+> *Throughout my academic journey at California State Polytechnic
+> University, Pomona, I have developed a strong interdisciplinary
+> foundation combining data analytics, business strategy, finance,
+> operations, and organizational leadership. My coursework emphasizes
+> applying analytical tools and theoretical frameworks to real-world
+> business problems, allowing me to strengthen both technical and
+> strategic thinking skills. Across multiple courses, I gained
+> experience in data analysis, visualization, financial decision-making,
+> operational planning, and leadership development. These learning
+> experiences have enhanced my ability to interpret data, communicate
+> insights effectively, and approach complex business challenges using
+> structured problem-solving methods and collaborative approaches.*
 
--   IBM 3202
+-   IBM 3302 – Data Analytics:\
+    *In this course I learned to build analytics websites using Quarto,
+    implement Google Analytics tracking, develop dashboards, and analyze
+    marketing performance using R and visualization tools.*
+
+-   BUS 4950 – Strategic Management
+
+-   IBM 3202 – Market Analysis and Control
+
+-   IBM 4112
+
+-   IBM 3072
+
+-   ACC 2070 – Accounting
+
+-   FRL 3000 – Finance
+
+-   MHR 3010 – Management
+
+-   MHR 3020 – HR Strategy
+
+-   TOM 3020 – Operations Management\
