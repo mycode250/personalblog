@@ -8,7 +8,7 @@ Here are a few links to IBM 3202 class projects and assignments showcasing my wo
 
 ## Introduction to Literate Programming
 
-In this module, I learned how to make the best use of the ***Quarto Markdown*** within RStudio. In Quarto, you can run not only R codes but also ***Python codes*** or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.
+*In this module, I learned how to make the best use of the **Quarto Markdown** within RStudio. In Quarto, you can run not only R codes but also **Python codes** or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.*
 
 *Check out [module 01 project](Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.qmd) to see this work!*
 
@@ -16,7 +16,7 @@ In this module, I learned how to make the best use of the ***Quarto Markdown**
 
 ## In-depth Literate Programming, Data Science and R’s Capabilities 
 
-The goal of this module was to introduce the world of data science in R and get you ready for the rest of the modules. To do so, you will be watching many short video clips and be given an opportunity to reflect on what you learned and set your personal goal for this course. You should understand that this course is comprehensive to be able to accommodate both novices and experienced R users. You should set a realistic goal depending on your time availability.  Your goal can be either (1) obtaining coding literacy, (2) becoming intermediate users, or (3) becoming advanced users. Regardless of your goal, you should all get appropriate grades to pass the course if you don't give up. Stick with your plan and continue to allocate the time you commit to achieve your goal.
+*The goal of this module was to introduce the world of data science in R and get you ready for the rest of the modules. To do so, you will be watching many short video clips and be given an opportunity to reflect on what you learned and set your personal goal for this course. You should understand that this course is comprehensive to be able to accommodate both novices and experienced R users. You should set a realistic goal depending on your time availability.  Your goal can be either (1) obtaining coding literacy, (2) becoming intermediate users, or (3) becoming advanced users. Regardless of your goal, you should all get appropriate grades to pass the course if you don't give up. Stick with your plan and continue to allocate the time you commit to achieve your goal.*
 
 *Check out [module 02 project](Alnajjar, Amir-M02-Intro-Data-Science-in-R.qmd) to see this work!*
 
@@ -24,9 +24,9 @@ The goal of this module was to introduce the world of data science in R and get 
 
 ## Data Visualization with ggplot2 
 
-The **ggplot 2** is a plotting package that provides a powerful array of functions to create any charts from data. It provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties. Therefore, we only need minimal changes if the underlying data changes or if we decide to change from one plot to another. This helps in creating publication-quality plots with minimal amounts of adjustments and tweaking. It is the ggplot2 package that makes R the king of data visualization tools and is included. It is no wonder ggplot2 is part of ***Tidyverse***
+*The **ggplot 2** is a plotting package that provides a powerful array of functions to create any charts from data. It provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties. Therefore, we only need minimal changes if the underlying data changes or if we decide to change from one plot to another. This helps in creating publication-quality plots with minimal amounts of adjustments and tweaking. It is the ggplot2 package that makes R the king of data visualization tools and is included. It is no wonder ggplot2 is part of **Tidyverse***
 
-In this module, you I was introduced to conceptsof ***the grammar of graphics*** when **visualizing data with the ggplot2** package.
+*In this module, you I was introduced to conceptsof **the grammar of graphics** when **visualizing data with the ggplot2** package.*
 
 *Check out [module 03 project](Alnajjar, Amir-M03-2-Data-Viz-Application.qmd) to see this work!*
 
@@ -34,6 +34,6 @@ In this module, you I was introduced to conceptsof ***the grammar of graphics**
 
 ## Advanced Data Visualization Overview
 
-In this module, I was introduced to advanced topicsof ***the grammar of graphics*** and ggplot2 extensions such as patchwork and **gganimate**.  You I also observed how data scientists use **ggplot2** to customize charts for better communication, including live screencast demonstrations of clever and creative data visualizations.
+*In this module, I was introduced to advanced topicsof **the grammar of graphics** and ggplot2 extensions such as patchwork and **gganimate**.  You I also observed how data scientists use **ggplot2** to customize charts for better communication, including live screencast demonstrations of clever and creative data visualizations.*
 
 *Check out [module 04 project](Alnajjar, Amir-M04-Reflection Essay-Advanced Data-Viz.qmd) to see this work!*

@@ -164,14 +164,14 @@
     "objectID": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-1",
     "href": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-1",
     "title": "M01-2-Introduction to Literate Programming-Application Assignment",
-    "section": "2.1 Part 1",
+    "section": "\n2.1 Part 1",
     "text": "2.1 Part 1\n\nLook up paste() function from help to learn how to use it. In the help document, you will find some use cases as examples toward the bottom of the page. Copy some of them and paste them into your codebook inside a code chunk right below this instruction. Execute one line at a time and learn how they work.\n\n\npaste0(1:12)\n\n [1] \"1\"  \"2\"  \"3\"  \"4\"  \"5\"  \"6\"  \"7\"  \"8\"  \"9\"  \"10\" \"11\" \"12\"\n\npaste(1:12) \n\n [1] \"1\"  \"2\"  \"3\"  \"4\"  \"5\"  \"6\"  \"7\"  \"8\"  \"9\"  \"10\" \"11\" \"12\"\n\n(nth &lt;- paste0(1:12, c(\"st\", \"nd\", \"rd\", rep(\"th\", 9))))\n\n [1] \"1st\"  \"2nd\"  \"3rd\"  \"4th\"  \"5th\"  \"6th\"  \"7th\"  \"8th\"  \"9th\"  \"10th\"\n[11] \"11th\" \"12th\"\n\npaste0(nth, collapse = \", \") #To collapse the output into a single string, pass a collapse argument.\n\n[1] \"1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th, 11th, 12th\"\n\npaste(\"1st\", \"2nd\", \"3rd\", sep = \", \") #For inputs of length 1, use the sep argument rather than collapse\n\n[1] \"1st, 2nd, 3rd\""
   },
   {
     "objectID": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-2",
     "href": "Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.html#part-2",
     "title": "M01-2-Introduction to Literate Programming-Application Assignment",
-    "section": "2.2 Part 2",
+    "section": "\n2.2 Part 2",
     "text": "2.2 Part 2\n\nUsing `paste()` function, add “and I’m loving it!” to `X`, the variable that you just created.\n\n\npaste(X, \"and I'm loving it!\") #adding a new string to a string variable\n\n[1] \"This is my first assignment and I'm loving it!\""
   },
   {
