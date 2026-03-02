@@ -2,7 +2,7 @@
 title: "Past Class Projects"
 ---
 
-Here are a few links to IBM 3202 class projects and assignments showcasing my work with in R
+Below are some IBM 3202 class projects and assignments showcasing my work with in R quarto.
 
 # Module 01-2 Application 
 
