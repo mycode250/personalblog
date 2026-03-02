@@ -2,13 +2,13 @@
 title: "Past Class Projects"
 ---
 
-Below are some IBM 3202 class projects and assignments showcasing my work with in R quarto.
+Below are some IBM 3202 class projects and assignments showcasing my work in R quarto.
 
-# Module 01-2 Application 
+# Module 01 Application Project
 
 ## Introduction to Literate Programming
 
-*In this module, I learned how to make the best use of the **Quarto Markdown** within RStudio. In Quarto, you can run not only R codes but also **Python codes** or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.*
+*In this module, I learned how to make the best use of the **Quarto Markdown** within RStudio. In Quarto, you can run not only R codes but also **Python codes** or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.*
 
 *Check out [module 01 project](Alnajjar, Amir-M01-2-Intro_Literate_programming-Application.qmd) to see this work!*
 

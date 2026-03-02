@@ -93,7 +93,7 @@
   {
     "objectID": "Coursework.html",
     "href": "Coursework.html",
-    "title": "CourseWork",
+    "title": "Academia",
     "section": "",
     "text": "Throughout my academic journey at California State Polytechnic University, Pomona, I have developed a strong interdisciplinary foundation combining data analytics, business strategy, finance, operations, and organizational leadership. My coursework emphasizes applying analytical tools and theoretical frameworks to real-world business problems, allowing me to strengthen both technical and strategic thinking skills. Across multiple courses, I gained experience in data analysis, visualization, financial decision-making, operational planning, and leadership development. These learning experiences have enhanced my ability to interpret data, communicate insights effectively, and approach complex business challenges using structured problem-solving methods and collaborative approaches.\n\n\nIBM 3302 – Data Analytics:\nIn this course I learned to build analytics websites using Quarto, implement Google Analytics tracking, develop dashboards, and analyze marketing performance using R and visualization tools.\nBUS 4950 – Strategic Management\nIBM 3202 – Market Analysis and Control\nIBM 4112\nIBM 3072\nACC 2070 – Accounting\nFRL 3000 – Finance\nMHR 3010 – Management\nMHR 3020 – HR Strategy\nTOM 3020 – Operations Management"
   },
@@ -326,14 +326,14 @@
     "href": "analytics.html",
     "title": "Past Class Projects",
     "section": "",
-    "text": "Below are some IBM 3202 class projects and assignments showcasing my work with in R quarto."
+    "text": "Below are some IBM 3202 class projects and assignments showcasing my work in R quarto."
   },
   {
     "objectID": "analytics.html#introduction-to-literate-programming",
     "href": "analytics.html#introduction-to-literate-programming",
     "title": "Past Class Projects",
     "section": "Introduction to Literate Programming",
-    "text": "Introduction to Literate Programming\nIn this module, I learned how to make the best use of the Quarto Markdown within RStudio. In Quarto, you can run not only R codes but also Python codes or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.\nCheck out module 01 project to see this work!"
+    "text": "Introduction to Literate Programming\nIn this module, I learned how to make the best use of the Quarto Markdown within RStudio. In Quarto, you can run not only R codes but also Python codes or codes for other programming languages. RStudio is wonderful. With this preparation done, I was ready and capable of doing projects in R. I explored Tidyverse approach of data science with the use of the Tidyverse package.\nCheck out module 01 project to see this work!"
   },
   {
     "objectID": "analytics.html#in-depth-literate-programming-data-science-and-rs-capabilities",
